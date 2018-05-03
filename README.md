@@ -8,7 +8,7 @@
 ## Lojas Americanas -> LAME4
 ## Natura -> NATU3
 ## Renner -> LREN3
-## Netflix -> NFLX34
+## Copel -> CPLE6
 ## Amazon -> AMZO34
 ## Klabin -> KLBN11
 ## Vale -> VALE3
