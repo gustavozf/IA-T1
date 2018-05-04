@@ -64,10 +64,29 @@ def pequenaProbabilidadeAleatoria():
 		
 	return random.randint(1, 100) in range(34, 41)
 
+def gerarPopulacaoInicial(populacao):
+    '''
+	Esta funcao gera a populacao inicial para 8 individuos de forma aleatoria.
+	'''
+	# for para gerar todos os individuos da populacao
+	for i in range(0,8): 
+    	percentagem = 1
+		aux = []
+		# for para todos os cromossomos do individuo
+		for j in range(0,10):
+    		# pega um valor decimal aleatorio de 3 casas
+			valor = round(random.uniform(0,percentagem),3)
+			aux.append(valor)
+			percentagem -= valor
+
+		populacao.append(aux)
+
 def buscaGenetico():
 	populacao = []
 	N = 1 # Quantidade de filhos gerados a cada iteracao.
 	criterioParada = True
+	
+	gerarPopulacaoInicial(populacao)
 	
 	while criterioParada:
 		novaPopulacao = []
