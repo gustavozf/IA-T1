@@ -4,13 +4,13 @@ def melhorIndividuo(populacao):
 	'''
 	Funcao que retorna o melhor individuo de uma populacao
 	'''
-	return "TESTE: INDIVIDUO"
+	return "TESTE: INDIVIDUO" 
 
 def checkCriterioParada():
 	'''
-	Funcao que atualiza o criterio de parada
+	Verifica se ja esta hapto a parar
 	'''
-	return False
+	return False 
 
 def atualizar(populacao, novaPopulacao):
 	'''
@@ -20,28 +20,40 @@ def atualizar(populacao, novaPopulacao):
 
 def mutacao(filho):
 	'''
-	Funcao que muta um individuo
+	Funcao que muta um individuo. Utiliza do swap.
 	'''
-	print "TESTE: MUTACAO"
+	a = random.randint(0, 9) # Inclui o 9
+	b = random.randint(0, 9)
+	filho[a], filho[b] = filho[b], filho[a]
 
 def reproduz(x, y):
 	'''
-	Reproduz um filho de "x" e "y"
+	Reproduz um filho de "x" e "y". O ponto de corte eh decidido aleatoriamente
 	'''
-	print "TESTE: REPRODUCAO"
+	pontoDeCorte = random.randint(1, 8)
+
+	return x[:pontoDeCorte] + y[pontoDeCorte:]
 
 def fnFitness():
 	'''
 	Funcao que mede a adaptacao de um individuo
 	'''
-	print "TESTE: FITNESS"
+	print "TESTE: FITNESS"	
 
 def selecao(populacao):
 	'''
-	Selecao realizada por torneio ou roleta
-	'''
-	print "TESTE: SELECAO"
-	fnFitness()
+	Selecao realizada por torneio.
+	Seleciona dois individuos aleatorios da populacao e em seguida,
+	retorna o melhor!
+	'''	
+	
+	primSelecionado = random.choice(populacao)
+	segunSelecionado = random.choice(populacao)
+
+	if fnFitness(primSelecionado) > fnFitness(segunSelecionado):
+		return primSelecionado
+	else:
+    	return segunSelecionado
 
 def pequenaProbabilidadeAleatoria():
 	'''
@@ -49,35 +61,34 @@ def pequenaProbabilidadeAleatoria():
 	Se este estiver presente entre 34 - 41, eh retornado True.
 	Caso contrario, False
 	'''
-	print "TESTE: pequenaProbabilidadeAleatoria"
+		
 	return random.randint(1, 100) in range(34, 41)
 
 def buscaGenetico():
 	populacao = []
 	N = 1 # Quantidade de filhos gerados a cada iteracao.
 	criterioParada = True
-
+	
 	while criterioParada:
 		novaPopulacao = []
-
+		
 		for i in range(0, N):
 			x = selecao(populacao)
 			y = selecao(populacao)
 			filho = reproduz(x, y)
-
+			
 			if (pequenaProbabilidadeAleatoria()):
-				filho = mutacao(filho)
+				mutacao(filho)
 
 			novaPopulacao.append(filho)
-
+		
 		atualizar(populacao, novaPopulacao)
-
-		criterioParada = checkCriterioParada()
-		print "Criterio de parada = " +str(criterioParada)
+		
+		criterioParada = checkCriterioParada()	
 
 	return melhorIndividuo(populacao)
-
+		
 def buscaProporcao(opcao):
 	print "A opcao selecionada foi: {0}".format(opcao)
-
+	
 	buscaGenetico()
