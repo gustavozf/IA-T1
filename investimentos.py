@@ -30,15 +30,16 @@ def reproduz(x, y):
 	'''
 	Reproduz um filho de "x" e "y". O ponto de corte eh decidido aleatoriamente
 	'''
-	pontoDeCorte = random.randint(1, 8)
-
+	pontoDeCorte = random.randint(1, 8)	
+	
 	return x[:pontoDeCorte] + y[pontoDeCorte:]
 
-def fnFitness():
+def fnFitness(individuo):
 	'''
 	Funcao que mede a adaptacao de um individuo
 	'''
 	print "TESTE: FITNESS"	
+	return 0
 
 def selecao(populacao):
 	'''
@@ -50,10 +51,10 @@ def selecao(populacao):
 	primSelecionado = random.choice(populacao)
 	segunSelecionado = random.choice(populacao)
 
-	if fnFitness(primSelecionado) > fnFitness(segunSelecionado):
+	if (fnFitness(primSelecionado) > fnFitness(segunSelecionado)):
 		return primSelecionado
 	else:
-    	return segunSelecionado
+		return segunSelecionado
 
 def pequenaProbabilidadeAleatoria():
 	'''
@@ -61,48 +62,46 @@ def pequenaProbabilidadeAleatoria():
 	Se este estiver presente entre 34 - 41, eh retornado True.
 	Caso contrario, False
 	'''
-		
+
 	return random.randint(1, 100) in range(34, 41)
 
 def gerarPopulacaoInicial(populacao):
-    '''
+	'''
 	Esta funcao gera a populacao inicial para 8 individuos de forma aleatoria.
 	'''
 	# for para gerar todos os individuos da populacao
 	for i in range(0,8): 
-    	percentagem = 1
+		percentagem = 1
 		aux = []
 		# for para todos os cromossomos do individuo
 		for j in range(0,10):
-    		# pega um valor decimal aleatorio de 3 casas
+			# pega um valor decimal aleatorio de 3 casas
 			valor = round(random.uniform(0,percentagem),3)
 			aux.append(valor)
 			percentagem -= valor
-
 		populacao.append(aux)
 
 def buscaGenetico():
 	populacao = []
 	N = 1 # Quantidade de filhos gerados a cada iteracao.
 	criterioParada = True
-	
+
 	gerarPopulacaoInicial(populacao)
-	
+	print populacao	
 	while criterioParada:
 		novaPopulacao = []
-		
+
 		for i in range(0, N):
 			x = selecao(populacao)
 			y = selecao(populacao)
-			filho = reproduz(x, y)
-			
-			if (pequenaProbabilidadeAleatoria()):
-				mutacao(filho)
+			filho =	reproduz(x, y)
 
+			if (pequenaProbabilidadeAleatoria()):
+				mutacao(filho)	
 			novaPopulacao.append(filho)
-		
+
 		atualizar(populacao, novaPopulacao)
-		
+
 		criterioParada = checkCriterioParada()	
 
 	return melhorIndividuo(populacao)
