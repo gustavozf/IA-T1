@@ -39,7 +39,7 @@ def fnFitness(individuo):
 	Funcao que mede a adaptacao de um individuo
 	'''
 	print "TESTE: FITNESS"	
-	return 0
+	return random.randint(1,10)
 
 def selecao(populacao):
 	'''
@@ -73,12 +73,18 @@ def gerarPopulacaoInicial(populacao):
 	for i in range(0,8): 
 		percentagem = 1
 		aux = []
-		# for para todos os cromossomos do individuo
-		for j in range(0,10):
-			# pega um valor decimal aleatorio de 3 casas
-			valor = round(random.uniform(0,percentagem),3)
+		# for para os cromossomos do individuo
+		for j in range(0,9):
+			# pega um valor decimal aleatorio de 4 casas
+			valor = round(random.uniform(0,percentagem),4)
 			aux.append(valor)
 			percentagem -= valor
+		if percentagem > 0:
+			aux.append(round(percentagem, 4)) # faz isso para dar ao ultimo, o resto da percentagem
+		else:
+			aux.append(0.0)
+		#aux = random.shuffle(aux) # embaralha os valores
+		random.shuffle(aux)
 		populacao.append(aux)
 
 def buscaGenetico():
@@ -87,14 +93,14 @@ def buscaGenetico():
 	criterioParada = True
 
 	gerarPopulacaoInicial(populacao)
-	print populacao	
+	print "Populcao: ", populacao	
 	while criterioParada:
 		novaPopulacao = []
 
 		for i in range(0, N):
 			x = selecao(populacao)
 			y = selecao(populacao)
-			filho =	reproduz(x, y)
+			filho = reproduz(x, y)
 
 			if (pequenaProbabilidadeAleatoria()):
 				mutacao(filho)	
