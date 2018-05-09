@@ -8,7 +8,7 @@ def dic(nome, dicionario):
             if line != '\n':
                 aux.append(line.split('\t'))
         for i in aux:
-            dicionario[nome].append(i[5])
+            dicionario[nome].append(float(i[5].replace(',','.')))
 
 def start():
     dicionario = {}
@@ -23,5 +23,5 @@ def start():
     dic("renner", dicionario)
     dic("vale", dicionario)
     dic("weg", dicionario)
-
+    print ( dicionario['amazon'])
     return dicionario
