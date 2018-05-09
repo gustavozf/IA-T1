@@ -74,11 +74,14 @@ def gerarPopulacaoInicial(populacao):
 		percentagem = 100
 		aux = []
 		# for para os cromossomos do individuo
-		for j in range(0,9):
-			# pega um valor decimal aleatorio de 4 casas
-			valor = random.randint(0,percentagem)
+		for j in range(0,5):
+			valor = random.randint(0,percentagem/3)
 			aux.append(valor)
 			percentagem -= valor
+		for j in range(0,4):
+			valor = random.randint(0,percentagem)
+			aux.append(valor)
+			percentagem -= valor			
 		if percentagem > 0:
 			aux.append(percentagem) # faz isso para dar ao ultimo, o resto da percentagem
 		else:
