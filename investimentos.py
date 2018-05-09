@@ -30,9 +30,37 @@ def reproduz(x, y):
 	'''
 	Reproduz um filho de "x" e "y". O ponto de corte eh decidido aleatoriamente
 	'''
+	soma = 0
+	diferenca = 0
+	porcentagem = 0
 	pontoDeCorte = random.randint(1, 8)	
+
+	filho = x[:pontoDeCorte] + y[pontoDeCorte:]
 	
-	return x[:pontoDeCorte] + y[pontoDeCorte:]
+	print "Filho: ", filho
+
+	# Verifica se o filho alcancou 100%
+	for i in filho:
+		soma += i
+
+	if soma > 100:
+		diferenca = soma - 100
+		diferenFor = diferenca
+		i = 0
+		while diferenFor  > 0:
+			num = round(diferenca*(filho[i]/soma))
+			print num, diferenFor
+			filho[i] -= num
+			diferenFor -=num
+
+			if i < 9:
+				i += 1
+			else:
+				i = 0
+
+	print "Filho: ", filho
+
+	return filho
 
 def fnFitness(individuo):
 	'''
@@ -74,8 +102,11 @@ def gerarPopulacaoInicial(populacao):
 		percentagem = 100
 		aux = []
 		# for para os cromossomos do individuo
-		for j in range(0,9):
-			# pega um valor decimal aleatorio de 4 casas
+		for j in range(0,3):
+			valor = random.randint(0,percentagem/3)
+			aux.append(valor)
+			percentagem -= valor
+		for j in range(0,6):
 			valor = random.randint(0,percentagem)
 			aux.append(valor)
 			percentagem -= valor
