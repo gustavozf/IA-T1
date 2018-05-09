@@ -1,4 +1,12 @@
 import os, sys, random # bibliotecas que podem vir a ser uteis
+from math import ceil
+
+def checkSum(lista):
+	soma = 0
+	for i in lista:
+		soma += i
+
+	return soma
 
 def melhorIndividuo(populacao):
 	'''
@@ -16,7 +24,7 @@ def atualizar(populacao, novaPopulacao):
 	'''
 	Funcao que atualiza a populacao antiga com a nova. Elitista.
 	'''
-	print "TESTE: ATUALIZACAO"
+	print( "TESTE: ATUALIZACAO")
 
 def mutacao(filho):
 	'''
@@ -30,15 +38,40 @@ def reproduz(x, y):
 	'''
 	Reproduz um filho de "x" e "y". O ponto de corte eh decidido aleatoriamente
 	'''
+	soma = 0
+	diferenca = 0
+	porcentagem = 0
 	pontoDeCorte = random.randint(1, 8)	
+
+	filho = x[:pontoDeCorte] + y[pontoDeCorte:]
 	
-	return x[:pontoDeCorte] + y[pontoDeCorte:]
+	print( "Filho: ", filho)
+
+	# Verifica se o filho alcancou 100%
+	soma = checkSum(filho)
+	print('soma: ', soma)
+
+	if soma != 100:
+		for i in range(10):
+			filho[i] = int((filho[i]/soma)*100)
+		aux = checkSum(filho)
+		if aux < 100:
+			resto = 100 - aux
+			if 0 in filho:
+				filho[filho.index(0)] = resto
+			else:
+				filho[random.randint(0,9)] = resto
+
+	soma = checkSum(filho)
+	print( "Filho: {0} / Soma: {1}".format(filho, soma))
+
+	return filho
 
 def fnFitness(individuo):
 	'''
 	Funcao que mede a adaptacao de um individuo
 	'''
-	print "TESTE: FITNESS"	
+	print( "TESTE: FITNESS"	)
 	return random.randint(1,10)
 
 def selecao(populacao):
@@ -68,17 +101,17 @@ def pequenaProbabilidadeAleatoria():
 def gerarPopulacaoInicial(populacao):
 	'''
 	Esta funcao gera a populacao inicial para 8 individuos de forma aleatoria.
-	'''
+	''' 
 	# for para gerar todos os individuos da populacao
 	for i in range(0,8): 
 		percentagem = 100
 		aux = []
 		# for para os cromossomos do individuo
-		for j in range(0,5):
-			valor = random.randint(0,percentagem/3)
+		for j in range(0,4):
+			valor = random.randint(0, int(percentagem/3))
 			aux.append(valor)
 			percentagem -= valor
-		for j in range(0,4):
+		for j in range(0,5):
 			valor = random.randint(0,percentagem)
 			aux.append(valor)
 			percentagem -= valor			
@@ -96,7 +129,7 @@ def buscaGenetico():
 	criterioParada = True
 
 	gerarPopulacaoInicial(populacao)
-	print "Populcao: ", populacao	
+	print( "Populcao: ", populacao	)
 	while criterioParada:
 		novaPopulacao = []
 
@@ -116,6 +149,6 @@ def buscaGenetico():
 	return melhorIndividuo(populacao)
 		
 def buscaProporcao(opcao):
-	print "A opcao selecionada foi: {0}".format(opcao)
+	print( "A opcao selecionada foi: {0}".format(opcao))
 	
 	buscaGenetico()
