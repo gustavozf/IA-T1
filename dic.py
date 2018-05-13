@@ -12,16 +12,12 @@ def dic(nome, dicionario):
 
 def start():
     dicionario = {}
+    empresas = ["amazon", "ambev", "americanas", "cielo", "copel", "klabin", "natura", "renner", "vale", "weg"]
 
-    dic("amazon", dicionario)
-    dic("ambev", dicionario)
-    dic("americanas", dicionario)
-    dic("cielo", dicionario)
-    dic("copel", dicionario)
-    dic("klabin", dicionario)
-    dic("natura", dicionario)
-    dic("renner", dicionario)
-    dic("vale", dicionario)
-    dic("weg", dicionario)
-    print ( dicionario['amazon'])
+    for empresa in empresas:
+        dic(empresa, dicionario)
+        print("Empresa '", empresa,"' -> ",len(dicionario[empresa]))
+    
+    #print ( dicionario['amazon'])
+    
     return dicionario
