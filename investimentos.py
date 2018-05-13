@@ -1,5 +1,22 @@
 import os, sys, random # bibliotecas que podem vir a ser uteis
 from math import ceil
+from dic import start
+
+def somaVar():
+	dicionario = start()
+
+	dicVar = {}
+
+	empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel", "natura", "renner", "sanepar", "vale", "weg"]
+
+	for empresa in empresas:
+    	dicVar[empresa] = []
+		dicVar[empresa].append(sum(dicionario[empresa])) # variancia dos dois anos
+		dicVar[empresa].append(sum(dicionario[empresa][:247])) # variancia de 2015
+		dicVar[empresa].append(sum(dicionario[empresa][:124])) # variancia de metade de 2015
+
+	return dicVar
+
 
 def checkSum(lista):
 	soma = 0
@@ -67,14 +84,22 @@ def reproduz(x, y):
 
 	return filho
 
-def fnFitness(individuo):
+def fnFitness(individuo, dicionario):
 	'''
 	Funcao que mede a adaptacao de um individuo
 	'''
-	print( "TESTE: FITNESS"	)
-	return random.randint(1,10)
+	empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel", "natura", "renner", "sanepar", "vale", "weg"]
 
-def selecao(populacao):
+	i = 0
+
+	for empresa in empresas: #media pondereda, peso 1, 2 e 3
+		fitness += individuo[i] * (dicionario[empresa][0]*0.16) +  individuo[i] * (dicionario[empresa][1] * 0.34) + individuo[i] * (dicionario[empresa][2]*0.5)
+		i += 1
+
+	print( "TESTE: FITNESS"	)
+	return fitness
+
+def selecao(populacao, dicionario):
 	'''
 	Selecao realizada por torneio.
 	Seleciona dois individuos aleatorios da populacao e em seguida,
@@ -84,7 +109,7 @@ def selecao(populacao):
 	primSelecionado = random.choice(populacao)
 	segunSelecionado = random.choice(populacao)
 
-	if (fnFitness(primSelecionado) > fnFitness(segunSelecionado)):
+	if (fnFitness(primSelecionado, dicionario) > fnFitness(segunSelecionado, dicionario)):
 		return primSelecionado
 	else:
 		return segunSelecionado
@@ -128,14 +153,16 @@ def buscaGenetico():
 	N = 1 # Quantidade de filhos gerados a cada iteracao.
 	criterioParada = True
 
+	dicVar = somaVar() # Soma as variâncias
+
 	gerarPopulacaoInicial(populacao)
 	print( "Populcao: ", populacao	)
 	while criterioParada:
 		novaPopulacao = []
 
 		for i in range(0, N):
-			x = selecao(populacao)
-			y = selecao(populacao)
+			x = selecao(populacao, dicVar)
+			y = selecao(populacao, dicVar)
 			filho = reproduz(x, y)
 
 			if (pequenaProbabilidadeAleatoria()):
@@ -147,7 +174,7 @@ def buscaGenetico():
 		criterioParada = checkCriterioParada()	
 
 	return melhorIndividuo(populacao)
-		
+
 def buscaProporcao(opcao):
 	print( "A opcao selecionada foi: {0}".format(opcao))
 	
