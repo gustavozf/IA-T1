@@ -14,7 +14,7 @@ def compraPrimeiroDia(disponivel, values2016):
 
 def venda():
 
-def compra(index, empresa, values2016, disponivel, cotacoes):
+def compra(index, empresa, values2016, dpyisponivel, cotacoes):
     numeroCotacoes = (disponivel[empresa]//values2016[empresa][index]) # numero de cotacoes possiveis de serem compradas
     valorGasto = numeroCotacoes * values2016[empresa][index] # numero de cotacoes
     cotacoes[empresa] += numeroCotacoes
@@ -55,6 +55,8 @@ def mediaMovelExponencial(disponivel):
     dias = 247 #dias de 2016, tirando o 1º
     cont = 18 # maximo = 266
     investimento = {} #quanto tenho pra investir
+    cotacoes = compraPrimeiroDia(disponivel, values2016)
+    print(cotacoes)
 
     values2016 = get2016() #dicionario com as infos de 15 e 16
 
