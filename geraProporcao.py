@@ -28,14 +28,17 @@ def checkSum(lista):
 
 	return soma
 
-def melhorIndividuo(populacao):
+def melhorIndividuo(populacao, dicionario):
 	'''
 	Funcao que retorna o melhor individuo de uma populacao
 	'''
+	fit = []
+	for individuo in populacao:
+		fit.append(fnFitness(individuo, dicionario))
+	return list(populacao[fit.index(max(fit))])
 	# Organizar um dicionario por valor:
 	# OBS.: reverese = True --> Deixa a lista em formato decrescente
 	# sorted(x.items(), key=operator.itemgetter(1), reverse = True)
-	return "TESTE: INDIVIDUO"
 
 def atualizar(populacao, novaPopulacao, dicionario):
 	'''
@@ -196,7 +199,7 @@ def buscaGenetico():
 
 		criterioParada +=1
 
-	return melhorIndividuo(populacao)
+	return melhorIndividuo(populacao, dicVar)
 
 def buscaProporcao(valor):
 	print("Gerando proporcoes de investimentos...")
@@ -217,15 +220,17 @@ def buscaProporcao(valor):
 				proporcoes[5], proporcoes[6], proporcoes[7], proporcoes[8], proporcoes[9]
 			)
 	)
-	saldo = [(proporcoes[0]/100) * valor, 
-			(proporcoes[1]/100) * valor, 
-			(proporcoes[2]/100) * valor, 
-			(proporcoes[3]/100) * valor, 
+	saldo = [(proporcoes[0]/100) * valor,
+			(proporcoes[1]/100) * valor,
+			(proporcoes[2]/100) * valor,
+			(proporcoes[3]/100) * valor,
 			(proporcoes[4]/100) * valor,
-			(proporcoes[5]/100) * valor, 
-			(proporcoes[6]/100) * valor, 
-			(proporcoes[7]/100) * valor, 
-			(proporcoes[8]/100) * valor, 
+			(proporcoes[5]/100) * valor,
+			(proporcoes[6]/100) * valor,
+			(proporcoes[7]/100) * valor,
+			(proporcoes[8]/100) * valor,
 			(proporcoes[9]/100) * valor]
+
+	print(saldo)
 
 	return saldo
