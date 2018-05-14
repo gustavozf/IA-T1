@@ -1,11 +1,11 @@
 import os, sys, random, operator # bibliotecas que podem vir a ser uteis
 from math import ceil
-from dic import start
+from getInputs import get2014and2015
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel", "natura", "renner", "sanepar", "vale", "weg"]
 
 def somaVar():
-	dicionario = start()
+	dicionario = get2014and2015()
 	dicVar = {}
 	global empresas
 
