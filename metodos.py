@@ -1,6 +1,17 @@
-from dic import get2016
+from getInputs import get2016
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel",  "natura", "renner", "sanepar", "vale", "weg"]
+
+def setup(valor, disponivel):
+    if valor == 1:
+        print("Exponencial")
+        mediaMovelExponencial(disponivel)
+    elif valor == 2:
+        print("Ponderada")
+        mediaMovelPonderada(disponivel)
+    elif valor == 3:
+        print("Simples")
+        mediaMovelSimples(disponivel)
 
 def compraPrimeiroDia(disponivel, values2016):
     primDia = 18 #primeiro dia 2016
@@ -14,6 +25,7 @@ def compraPrimeiroDia(disponivel, values2016):
     return cotacoes
 
 def venda():
+    return 0
 
 def compra(index, empresa, values2016, dpyisponivel, cotacoes):
     numeroCotacoes = (disponivel[empresa]//values2016[empresa][index]) # numero de cotacoes possiveis de serem compradas
@@ -35,8 +47,7 @@ def mediaMovelPonderada(disponivel): # Mari - Media ponderada
         for empresa in empresas:
             if (sum(values2016[empresa][cont-18:cont+1])/18 < sum(values2016[empresa][cont-4:cont+1])/4): #vende
                 #vende tudo e salva no lucro
-
-
+                print ("ha")
             elif(sum(values2016[empresa][cont:cont-18]) > sum(values2016[empresa][cont:cont-4])): #compra
                 #compra tudo dessa empresa com o que tiver disponivel
                 compra(cont, empresa, values2016, disponivel, cotacoes)
@@ -52,6 +63,15 @@ def mediaMovelSimples(disponivel):
     values2016 = get2016(4)
 
     cotacoes = compraPrimeiroDia(disponivel, values2016)
+
+    while cont < (dias + cont):
+        for empresa in empresas:
+            if(sum(values2016[empresa][cont-4:cont+1])/4 > values2016[empresa][cont]):
+                #venda()
+                print("ha")
+            else:
+                compra(cont, empresa, values2016, disponivel, cotacoes)
+        cont += 1
 
     while cont < (dias + cont):
         for empresa in empresas:
@@ -74,6 +94,6 @@ def mediaMovelExponencial(disponivel):
 
     while cont < 266:
         for empresa in empresas:
-            
-            
+            print("ha")
+    
     return "teste"

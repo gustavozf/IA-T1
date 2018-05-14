@@ -1,6 +1,7 @@
 import os, sys, random, operator # bibliotecas que podem vir a ser uteis
 from math import ceil
 from getInputs import get2014and2015
+from metodos import setup
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel", "natura", "renner", "sanepar", "vale", "weg"]
 tamPopulacao = 10
@@ -68,7 +69,7 @@ def atualizar(populacao, novaPopulacao, dicionario):
 	#print ("novapop = ", novaPopulacao)
 	#print ("fit =", fit)
 	#print ( "novaPop = ", novaPop)
-	print ("tamanho = ", len(novaPop)) 
+	print ("tamanho = ", len(novaPop))
 	return list(novaPop)
 
 def mutacao(filho):
@@ -121,9 +122,9 @@ def fnFitness(individuo, dicionario):
 	i = 0
 	fitness = 0
 	for empresa in empresas: #media pondereda, peso 1, 2 e 3 + volume
-		'''
-		fitness +=( individuo[i] * ((dicionario[empresa][0]+dicionario[empresa][3])*0.16) +  
-		individuo[i] * ((dicionario[empresa][1]+dicionario[empresa][4]) * 0.34) + 
+	'''
+		fitness +=( individuo[i] * ((dicionario[empresa][0]+dicionario[empresa][3])*0.16) +
+		individuo[i] * ((dicionario[empresa][1]+dicionario[empresa][4]) * 0.34) +
 		individuo[i] * ((dicionario[empresa][2]+ dicionario[empresa][5])*0.5))
 		'''
 		fitness +=( individuo[i] * (
@@ -131,12 +132,12 @@ def fnFitness(individuo, dicionario):
 									(dicionario[empresa][1]*0.34)+
 									(dicionario[empresa][2]*0.5) * 0.95)
 									+
-									((dicionario[empresa][3]*0.16) + 
-									(dicionario[empresa][4]*0.34) + 
+									((dicionario[empresa][3]*0.16) +
+									(dicionario[empresa][4]*0.34) +
 									(dicionario[empresa][5]*0.5)*0.05)
 									))
-		
-		
+
+
 		i += 1
 
 	return round(fitness, 2)
@@ -252,5 +253,9 @@ def buscaProporcao(valor):
 			round((proporcoes[9]/100) * valor,2)]
 
 	print(saldo)
+<<<<<<< HEAD
 	x = {x:y for x in empresas}
+=======
+	setup(valor, disponivel)
+>>>>>>> fbae10f5d9ef3078d4af330b4a1ab9582fbd0c45
 	return saldo
