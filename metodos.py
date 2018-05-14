@@ -27,7 +27,7 @@ def compraPrimeiroDia(disponivel, values2016):
 def venda():
     return 0
 
-def compra(index, empresa, values2016, dpyisponivel, cotacoes):
+def compra(index, empresa, values2016, disponivel, cotacoes):
     numeroCotacoes = (disponivel[empresa]//values2016[empresa][index]) # numero de cotacoes possiveis de serem compradas
     valorGasto = numeroCotacoes * values2016[empresa][index] # numero de cotacoes
     cotacoes[empresa] += numeroCotacoes
@@ -59,27 +59,18 @@ def mediaMovelSimples(disponivel):
     cont = 5 #maximo = 266
 
     investimento = {}
-
     values2016 = get2016(4)
-
     cotacoes = compraPrimeiroDia(disponivel, values2016)
 
-    while cont < (dias + cont):
+    while cont < dias:
         for empresa in empresas:
             if(sum(values2016[empresa][cont-4:cont+1])/4 > values2016[empresa][cont]):
                 #venda()
-                print("ha")
+                print("VENDEU")
             else:
                 compra(cont, empresa, values2016, disponivel, cotacoes)
         cont += 1
 
-    while cont < (dias + cont):
-        for empresa in empresas:
-            if(sum(values2016[empresa][cont-4:cont+1])/4 > values2016[empresa][cont]):
-                #venda()
-            else:
-                compra(cont, empresa, values2016, disponivel, cotacoes)
-        cont += 1
     return "teste"
 
 def mediaMovelExponencial(disponivel):
@@ -87,10 +78,10 @@ def mediaMovelExponencial(disponivel):
     dias = 247 #dias de 2016, tirando o 1º
     cont = 18 # maximo = 266
     investimento = {} #quanto tenho pra investir
+
+    values2016 = get2016(18) #dicionario com as infos de 15 e 16
     cotacoes = compraPrimeiroDia(disponivel, values2016)
     print(cotacoes)
-
-    values2016 = get2016() #dicionario com as infos de 15 e 16
 
     while cont < 266:
         for empresa in empresas:
