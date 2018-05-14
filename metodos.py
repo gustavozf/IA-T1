@@ -27,12 +27,19 @@ def compraPrimeiroDia(disponivel, values2016):
 def venda():
     return 0
 
-def compra(index, empresa, values2016, disponivel, cotacoes):
+def compra(index, empresa, values2016, dpyisponivel, cotacoes):
     numeroCotacoes = (disponivel[empresa]//values2016[empresa][index]) # numero de cotacoes possiveis de serem compradas
     valorGasto = numeroCotacoes * values2016[empresa][index] # numero de cotacoes
     cotacoes[empresa] += numeroCotacoes
     disponivel[empresa] -= valorGasto
+<<<<<<< HEAD
 
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8b8e92601a5f38455aca08c114967dd4c87b0f50
+>>>>>>> f806ae4b3c27dc07c6c0d7bdecaa116904cfd356
 
 def mediaMovelPonderada(disponivel): # Mari - Media ponderada
     global empresas
@@ -48,7 +55,12 @@ def mediaMovelPonderada(disponivel): # Mari - Media ponderada
         for empresa in empresas:
             if (sum(values2016[empresa][cont-18:cont+1])/18 < sum(values2016[empresa][cont-4:cont+1])/4): #vende
                 #vende tudo e salva no lucro
+<<<<<<< HEAD
                 print ("ha")
+=======
+
+
+>>>>>>> f806ae4b3c27dc07c6c0d7bdecaa116904cfd356
             elif(sum(values2016[empresa][cont:cont-18]) > sum(values2016[empresa][cont:cont-4])): #compra
                 #compra tudo dessa empresa com o que tiver disponivel
                 compra(cont, empresa, values2016, disponivel, cotacoes)
@@ -64,6 +76,7 @@ def mediaMovelSimples(disponivel):
     values2016 = get2016(4)
 
     cotacoes = compraPrimeiroDia(disponivel, values2016)
+<<<<<<< HEAD
 
     while cont < (dias + cont):
         for empresa in empresas:
@@ -73,7 +86,16 @@ def mediaMovelSimples(disponivel):
             else:
                 compra(cont, empresa, values2016, disponivel, cotacoes)
         cont += 1
+=======
+>>>>>>> f806ae4b3c27dc07c6c0d7bdecaa116904cfd356
 
+    while cont < (dias + cont):
+        for empresa in empresas:
+            if(sum(values2016[empresa][cont-4:cont+1])/4 > values2016[empresa][cont]):
+                #venda()
+            else:
+                compra(cont, empresa, values2016, disponivel, cotacoes)
+        cont += 1
     return "teste"
 
 def mediaMovelExponencial(disponivel):
@@ -81,10 +103,23 @@ def mediaMovelExponencial(disponivel):
     dias = 247 #dias de 2016, tirando o 1º
     cont = 18 # maximo = 266
     investimento = {} #quanto tenho pra investir
+    cotacoes = compraPrimeiroDia(disponivel, values2016)
+    print(cotacoes)
 
     values2016 = get2016() #dicionario com as infos de 15 e 16
 
     while cont < 266:
         for empresa in empresas:
+<<<<<<< HEAD
             print("ha")
     return "teste"
+=======
+<<<<<<< HEAD
+            
+
+    return "teste"
+=======
+
+    return "teste"
+>>>>>>> 8b8e92601a5f38455aca08c114967dd4c87b0f50
+>>>>>>> f806ae4b3c27dc07c6c0d7bdecaa116904cfd356
