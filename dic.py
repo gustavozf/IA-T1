@@ -2,17 +2,18 @@
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel",  "natura", "renner", "sanepar", "vale", "weg"]
 
-def get2016():
+def get2016(dias2015):
     global empresas
     dicionario = {}
 
+    print("Importando dados de 2016...")
     for empresa in empresas:
         dicionario[empresa] = []
         arquivo2015 = open("./inputs/2014-2015/"+empresa+'.txt', 'r')
         arquivo2016 = open("./inputs/2016/"+empresa+'.txt', 'r')
 
         aux = []
-        for i in range(16):
+        for i in range(dias2015):
             linha = arquivo2015.readline()
             if linha != '\n':
                 aux.append(float((linha.split('\t')[1]).replace(',','.')))
@@ -25,9 +26,9 @@ def get2016():
         aux.reverse()
         aux2.reverse()
         dicionario[empresa] = aux + aux2
+        print(empresa, " --> ", len(dicionario[empresa]))
     
     return dicionario
-
 
 def dic(nome, dicionario):
     aux = []
@@ -48,5 +49,3 @@ def start():
         dic(empresa, dicionario)
 
     return dicionario
-
-get2016()

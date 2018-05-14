@@ -20,7 +20,7 @@ tela = Tk()
 tela.title("Investidor Inteligente")
 
 # Da tamanho a tela
-tela.geometry("300x100")
+tela.geometry("400x200")
 
 # Cria um campo de entrada
 nome = Entry(tela)
