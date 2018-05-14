@@ -26,7 +26,6 @@ def get2016(dias2015):
         aux.reverse()
         aux2.reverse()
         dicionario[empresa] = aux + aux2
-        print(empresa, " --> ", len(dicionario[empresa]))
     
     return dicionario
 
