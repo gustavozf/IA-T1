@@ -29,7 +29,7 @@ def get2016(dias2015):
     
     return dicionario
 
-def dic(nome, dicionario):
+def insertDict(nome, dicionario):
     aux = []
     dicionario[nome] = []
     with open("./inputs/2014-2015/" + nome + ".txt") as f:
@@ -39,12 +39,12 @@ def dic(nome, dicionario):
         for i in aux:
             dicionario[nome].append(float(i[5].replace(',','.')))
 
-def start():
+def get2014and2015():
     dicionario = {}
     global empresas
 
     print("Importando dados de 2014-2015...")
     for empresa in empresas:
-        dic(empresa, dicionario)
+        insertDict(empresa, dicionario)
 
     return dicionario

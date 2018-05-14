@@ -1,5 +1,4 @@
 from geraProporcao import buscaProporcao
-from dic import start
 import os
 
 def menu():

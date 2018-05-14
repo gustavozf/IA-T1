@@ -1,7 +1,8 @@
-from dic import get2016
+from getInputs import get2016
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel",  "natura", "renner", "sanepar", "vale", "weg"]
 
+<<<<<<< HEAD
 def compraPrimeiroDia(disponivel, values2016):
     primDia = 18 #primeiro dia 2016 
     cotacoes = {}
@@ -13,6 +14,14 @@ def compraPrimeiroDia(disponivel, values2016):
     return cotacoes
 
 def venda()
+=======
+def compra(index, empresa, values2016, disponivel, cotacoes):
+    numeroCotacoes = (disponivel[empresa]//values2016[empresa][index]) # numero de cotacoes possiveis de serem compradas
+    valorGasto = numeroCotacoes * values2016[empresa][index] # numero de cotacoes
+    cotacoes[empresa] += numeroCotacoes
+    disponivel[empresa] -= valorGasto
+    
+>>>>>>> c95513f4fc9e68b0322f6730ed3ef0b25aaa42e7
 
 def mediaMovelPonderada(disponivel): # Mari - Media ponderada
     global empresas
@@ -20,9 +29,13 @@ def mediaMovelPonderada(disponivel): # Mari - Media ponderada
     cont = 19 # posicao do segundo dia de 2016
     investimento = {} #quanto tenho pra investir
 
+<<<<<<< HEAD
     values2016 = get2016(17) #dicionario com as infos de 15 e 16
 
     cotacoes = compraPrimeiroDia(disponivel, values2016)
+=======
+    values2016 = get2016(18) #dicionario com as infos de 15 e 16
+>>>>>>> c95513f4fc9e68b0322f6730ed3ef0b25aaa42e7
 
     #fazer o do primeiro dia/ acumulador do dinheiro do moço se sobrar
     #disponivel é o dinheiro, tem que ter 
@@ -49,7 +62,7 @@ def mediaMovelExponencial(disponivel):
     cont = 18 # maximo = 266
     investimento = {} #quanto tenho pra investir
 
-    precosDiarios = get2016() #dicionario com as infos de 15 e 16
+    values2016 = get2016() #dicionario com as infos de 15 e 16
 
     while cont < 266:
         for empresa in empresas:
