@@ -1,6 +1,7 @@
 import os, sys, random, operator # bibliotecas que podem vir a ser uteis
 from math import ceil
 from getInputs import get2014and2015
+from metodos import setup
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel", "natura", "renner", "sanepar", "vale", "weg"]
 tamPopulacao = 10
@@ -68,7 +69,7 @@ def atualizar(populacao, novaPopulacao, dicionario):
 	#print ("novapop = ", novaPopulacao)
 	#print ("fit =", fit)
 	#print ( "novaPop = ", novaPop)
-	print ("tamanho = ", len(novaPop)) 
+	print ("tamanho = ", len(novaPop))
 	return list(novaPop)
 
 def mutacao(filho):
@@ -121,9 +122,22 @@ def fnFitness(individuo, dicionario):
 	i = 0
 	fitness = 0
 	for empresa in empresas: #media pondereda, peso 1, 2 e 3 + volume
-		fitness +=( individuo[i] * ((dicionario[empresa][0]+dicionario[empresa][3])*0.16) +  
-		individuo[i] * ((dicionario[empresa][1]+dicionario[empresa][4]) * 0.34) + 
+	'''
+		fitness +=( individuo[i] * ((dicionario[empresa][0]+dicionario[empresa][3])*0.16) +
+		individuo[i] * ((dicionario[empresa][1]+dicionario[empresa][4]) * 0.34) +
 		individuo[i] * ((dicionario[empresa][2]+ dicionario[empresa][5])*0.5))
+		'''
+		fitness +=( individuo[i] * (
+									((dicionario[empresa][0]*0.16)+
+									(dicionario[empresa][1]*0.34)+
+									(dicionario[empresa][2]*0.5) * 0.95)
+									+
+									((dicionario[empresa][3]*0.16) +
+									(dicionario[empresa][4]*0.34) +
+									(dicionario[empresa][5]*0.5)*0.05)
+									))
+
+
 		i += 1
 
 	return round(fitness, 2)
@@ -188,7 +202,7 @@ def buscaGenetico():
 	dicVar = somaVar() # Soma as variâncias
 
 	gerarPopulacaoInicial(populacao)
-	while criterioParada < 15000:
+	while criterioParada < 100:
 		novaPopulacao = []
 		print( "Populcao: ", populacao, " / tamanho = ", len(populacao))
 		for i in range(0, N):
@@ -203,6 +217,7 @@ def buscaGenetico():
 		populacao = atualizar(populacao, novaPopulacao, dicVar)
 
 		criterioParada +=1
+		#melhor =  melhorIndividuo(populacao, dicVar)
 
 	return melhorIndividuo(populacao, dicVar)
 
@@ -225,17 +240,22 @@ def buscaProporcao(valor):
 				proporcoes[5], proporcoes[6], proporcoes[7], proporcoes[8], proporcoes[9]
 			)
 	)
-	saldo = [(proporcoes[0]/100) * valor,
-			(proporcoes[1]/100) * valor,
-			(proporcoes[2]/100) * valor,
-			(proporcoes[3]/100) * valor,
-			(proporcoes[4]/100) * valor,
-			(proporcoes[5]/100) * valor,
-			(proporcoes[6]/100) * valor,
-			(proporcoes[7]/100) * valor,
-			(proporcoes[8]/100) * valor,
-			(proporcoes[9]/100) * valor]
+	saldo = [
+			round((proporcoes[0]/100) * valor,2),
+			round((proporcoes[1]/100) * valor,2),
+			round((proporcoes[2]/100) * valor,2),
+			round((proporcoes[3]/100) * valor,2),
+			round((proporcoes[4]/100) * valor,2),
+			round((proporcoes[5]/100) * valor,2),
+			round((proporcoes[6]/100) * valor,2),
+			round((proporcoes[7]/100) * valor,2),
+			round((proporcoes[8]/100) * valor,2),
+			round((proporcoes[9]/100) * valor,2)]
 
 	print(saldo)
-
+<<<<<<< HEAD
+	x = {x:y for x in empresas}
+=======
+	setup(valor, disponivel)
+>>>>>>> fbae10f5d9ef3078d4af330b4a1ab9582fbd0c45
 	return saldo

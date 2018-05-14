@@ -1,5 +1,6 @@
 from geraProporcao import buscaProporcao
 import os
+from metodos import setup
 
 def menu():
     return int(input("Bem vindo ao ULTIMATE INVESTIDOR\n" +
@@ -16,6 +17,7 @@ def getValor():
 if __name__ == '__main__':
     condicoes = [False, False]
     valor = 0
+    empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel",  "natura", "renner", "sanepar", "vale", "weg"]
 
     os.system("clear")
     while not condicoes[0]:
@@ -37,4 +39,12 @@ if __name__ == '__main__':
     
     os.system("clear")
     proporcao = buscaProporcao(valor)
+    disponivel = {}
+
+    i = 0
+    for empresa in empresas:
+        disponivel[empresa] = proporcao[i]
+        i +=1
+
+    setup(alg, disponivel)
     
