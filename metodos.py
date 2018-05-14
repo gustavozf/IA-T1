@@ -20,10 +20,6 @@ def compra(index, empresa, values2016, dpyisponivel, cotacoes):
     valorGasto = numeroCotacoes * values2016[empresa][index] # numero de cotacoes
     cotacoes[empresa] += numeroCotacoes
     disponivel[empresa] -= valorGasto
-<<<<<<< HEAD
-=======
-
->>>>>>> 8b8e92601a5f38455aca08c114967dd4c87b0f50
 
 def mediaMovelPonderada(disponivel): # Mari - Media ponderada
     global empresas
@@ -78,11 +74,6 @@ def mediaMovelExponencial(disponivel):
 
     while cont < 266:
         for empresa in empresas:
-<<<<<<< HEAD
             
-
+            
     return "teste"
-=======
-
-    return "teste"
->>>>>>> 8b8e92601a5f38455aca08c114967dd4c87b0f50

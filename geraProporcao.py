@@ -252,5 +252,5 @@ def buscaProporcao(valor):
 			round((proporcoes[9]/100) * valor,2)]
 
 	print(saldo)
-
+	x = {x:y for x in empresas}
 	return saldo
