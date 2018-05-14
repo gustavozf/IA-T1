@@ -58,26 +58,26 @@ def mediaMovelPonderada(disponivel): # Mari - Media ponderada
 def mediaMovelSimples(disponivel):
     global empresas
     dias = 247 #dias de 2016, tirando o 1º
-    cont = 5 #maximo = 266
+    cont = 6 #maximo = 266
 
     investimento = {}
-    values2016 = get2016(4)
+    values2016 = get2016(5)
     cotacoes = compraPrimeiroDia(cont,disponivel, values2016)
     vendeu = comprou = 0
     while cont < dias:
         for empresa in empresas:
-            valor = values2016[empresa][cont] - sum(values2016[empresa][cont-3:cont+1])/4
-            print(valor, values2016[empresa][cont]*0.1)
-
-            if(valor > values2016[empresa][cont]*0.05): # se os valores dos dias passados estiverem mais baixos
+            somaQuatroDias = sum(values2016[empresa][cont-3:cont+1])/4
+            hoje = values2016[empresa][cont]
+            print(hoje, somaQuatroDias)
+            if(hoje < somaQuatroDias): # se os valores dos dias passados estiverem mais baixos
                 print("vendeu")
                 vendeu +=1                              # hoje esta alto, entao eu vendo
                 venda(cont, empresa, values2016, disponivel, cotacoes)
-            elif ((valor < (values2016[empresa][cont]*0.1)) and (valor <0)): # se os valores dos dias passados estiverem maiores
+            elif (hoje > somaQuatroDias): # se os valores dos dias passados estiverem maiores
                 comprou +=1    
                 print("comprou")                           # hoje esta mais barato, entao compro
                 compra(cont, empresa, values2016, disponivel, cotacoes)
-        cont += 1
+        cont += 4
 
     print(vendeu, comprou)
     print(sum(disponivel.values()))
