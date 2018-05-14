@@ -191,3 +191,15 @@ def buscaProporcao(valor):
 				proporcoes[5], proporcoes[6], proporcoes[7], proporcoes[8], proporcoes[9]
 			)
 	)
+	saldo = [(proporcoes[0]/100) * valor, 
+			(proporcoes[1]/100) * valor, 
+			(proporcoes[2]/100) * valor, 
+			(proporcoes[3]/100) * valor, 
+			(proporcoes[4]/100) * valor,
+			(proporcoes[5]/100) * valor, 
+			(proporcoes[6]/100) * valor, 
+			(proporcoes[7]/100) * valor, 
+			(proporcoes[8]/100) * valor, 
+			(proporcoes[9]/100) * valor]
+
+	return saldo
