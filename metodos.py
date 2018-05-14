@@ -13,19 +13,19 @@ def setup(valor, disponivel):
         print("Simples")
         mediaMovelSimples(disponivel)
 
-def compraPrimeiroDia(disponivel, values2016):
-    primDia = 18 #primeiro dia 2016
+def compraPrimeiroDia(primDia, disponivel, values2016):
     cotacoes = {}
 
     for empresa in empresas:
-        cotacoes[empresa] = []
         cotacoes[empresa] = disponivel[empresa] // values2016[empresa][primDia]
-        disponivel[empresa] -= cotacoes[empresa]*disponivel[empresa]
+        disponivel[empresa] -= cotacoes[empresa]*values2016[empresa][primDia]
 
     return cotacoes
 
-def venda():
-    return 0
+def venda(index, empresa, values2016, disponivel, cotacoes):
+    valor = cotacoes[empresa]*values2016[empresa][index] # quanto ta valendo hoje
+    cotacoes[empresa] = 0 #vende tudo
+    disponivel[empresa] += valor #add esse valor no disponivel
 
 def compra(index, empresa, values2016, disponivel, cotacoes):
     numeroCotacoes = (disponivel[empresa]//values2016[empresa][index]) # numero de cotacoes possiveis de serem compradas
@@ -41,17 +41,19 @@ def mediaMovelPonderada(disponivel): # Mari - Media ponderada
 
     values2016 = get2016(17) #dicionario com as infos de 15 e 16
 
-    cotacoes = compraPrimeiroDia(disponivel, values2016)
-
-    while(dias>0):
+    cotacoes = compraPrimeiroDia(cont, disponivel, values2016)
+    while(cont<dias):
         for empresa in empresas:
             if (sum(values2016[empresa][cont-18:cont+1])/18 < sum(values2016[empresa][cont-4:cont+1])/4): #vende
                 #vende tudo e salva no lucro
-                print ("ha")
+                venda(cont, empresa, values2016, disponivel, cotacoes)
             elif(sum(values2016[empresa][cont:cont-18]) > sum(values2016[empresa][cont:cont-4])): #compra
                 #compra tudo dessa empresa com o que tiver disponivel
                 compra(cont, empresa, values2016, disponivel, cotacoes)
-        dias -= 1
+        cont+=1
+
+    print(sum(disponivel.values()))
+    return sum(disponivel.values())
 
 def mediaMovelSimples(disponivel):
     global empresas
@@ -60,18 +62,26 @@ def mediaMovelSimples(disponivel):
 
     investimento = {}
     values2016 = get2016(4)
-    cotacoes = compraPrimeiroDia(disponivel, values2016)
-
+    cotacoes = compraPrimeiroDia(cont,disponivel, values2016)
+    vendeu = comprou = 0
     while cont < dias:
         for empresa in empresas:
-            if(sum(values2016[empresa][cont-4:cont+1])/4 > values2016[empresa][cont]):
-                #venda()
-                print("VENDEU")
-            else:
+            valor = values2016[empresa][cont] - sum(values2016[empresa][cont-3:cont+1])/4
+            print(valor, values2016[empresa][cont]*0.1)
+
+            if(valor > values2016[empresa][cont]*0.05): # se os valores dos dias passados estiverem mais baixos
+                print("vendeu")
+                vendeu +=1                              # hoje esta alto, entao eu vendo
+                venda(cont, empresa, values2016, disponivel, cotacoes)
+            elif ((valor < (values2016[empresa][cont]*0.1)) and (valor <0)): # se os valores dos dias passados estiverem maiores
+                comprou +=1    
+                print("comprou")                           # hoje esta mais barato, entao compro
                 compra(cont, empresa, values2016, disponivel, cotacoes)
         cont += 1
 
-    return "teste"
+    print(vendeu, comprou)
+    print(sum(disponivel.values()))
+    return sum(disponivel.values())
 
 def mediaMovelExponencial(disponivel):
     global empresas
@@ -80,7 +90,7 @@ def mediaMovelExponencial(disponivel):
     investimento = {} #quanto tenho pra investir
 
     values2016 = get2016(18) #dicionario com as infos de 15 e 16
-    cotacoes = compraPrimeiroDia(disponivel, values2016)
+    cotacoes = compraPrimeiroDia(cont,disponivel, values2016)
     print(cotacoes)
 
     while cont < 266:
