@@ -13,17 +13,16 @@ def compraPrimeiroDia(disponivel, values2016):
 
     return cotacoes
 
-def venda():
+def venda(index, empresa, values2016, disponivel, cotacoes):
+    valor = cotacoes[empresa]*values2016[empresa][index] # quanto ta valendo hoje
+    cotacoes[empresa] = 0 #vende tudo
+    disponivel[empresa] += valor #add esse valor no disponivel
 
 def compra(index, empresa, values2016, disponivel, cotacoes):
     numeroCotacoes = (disponivel[empresa]//values2016[empresa][index]) # numero de cotacoes possiveis de serem compradas
     valorGasto = numeroCotacoes * values2016[empresa][index] # numero de cotacoes
     cotacoes[empresa] += numeroCotacoes
     disponivel[empresa] -= valorGasto
-<<<<<<< HEAD
-=======
-    
->>>>>>> c1f99bc131fd2931f04075b99397eddf4cbb4cdd
 
 def mediaMovelPonderada(disponivel): # Mari - Media ponderada
     global empresas
@@ -34,12 +33,6 @@ def mediaMovelPonderada(disponivel): # Mari - Media ponderada
     values2016 = get2016(17) #dicionario com as infos de 15 e 16
 
     cotacoes = compraPrimeiroDia(disponivel, values2016)
-<<<<<<< HEAD
-=======
-
-    #fazer o do primeiro dia/ acumulador do dinheiro do moço se sobrar
-    #disponivel é o dinheiro, tem que ter 
->>>>>>> c1f99bc131fd2931f04075b99397eddf4cbb4cdd
 
     while(dias>0):
         for empresa in empresas:
