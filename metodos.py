@@ -3,7 +3,7 @@ from getInputs import get2016
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel",  "natura", "renner", "sanepar", "vale", "weg"]
 
 def compraPrimeiroDia(disponivel, values2016):
-    primDia = 18 #primeiro dia 2016 
+    primDia = 18 #primeiro dia 2016
     cotacoes = {}
 
     for empresa in empresas:
@@ -19,7 +19,7 @@ def compra(index, empresa, values2016, disponivel, cotacoes):
     valorGasto = numeroCotacoes * values2016[empresa][index] # numero de cotacoes
     cotacoes[empresa] += numeroCotacoes
     disponivel[empresa] -= valorGasto
-    
+
 
 def mediaMovelPonderada(disponivel): # Mari - Media ponderada
     global empresas
@@ -32,7 +32,7 @@ def mediaMovelPonderada(disponivel): # Mari - Media ponderada
     cotacoes = compraPrimeiroDia(disponivel, values2016)
 
     #fazer o do primeiro dia/ acumulador do dinheiro do moço se sobrar
-    #disponivel é o dinheiro, tem que ter 
+    #disponivel é o dinheiro, tem que ter
 
     while(dias>0):
         for empresa in empresas:
@@ -47,7 +47,22 @@ def mediaMovelPonderada(disponivel): # Mari - Media ponderada
 
 def mediaMovelSimples(disponivel):
     global empresas
+    dias = 247 #dias de 2016, tirando o 1º
+    cont = 5 #maximo = 266
 
+    investimento = {}
+
+    values2016 = get2016(4)
+
+    cotacoes = compraPrimeiroDia(disponivel, values2016)
+
+    while cont < (dias + cont):
+        for empresa in empresas:
+            if(sum(values2016[empresa][cont-4:cont+1])/4 > values2016[empresa][cont]):
+                #venda()
+            else:
+                compra(cont, empresa, values2016, disponivel, cotacoes)
+        cont += 1
     return "teste"
 
 def mediaMovelExponencial(disponivel):
@@ -60,8 +75,8 @@ def mediaMovelExponencial(disponivel):
 
     while cont < 266:
         for empresa in empresas:
-            
-    
+
+
 
 
     return "teste"
