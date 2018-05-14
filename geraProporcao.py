@@ -3,6 +3,9 @@ from math import ceil
 from getInputs import get2014and2015
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel", "natura", "renner", "sanepar", "vale", "weg"]
+tamPopulacao = 10
+numFilhos = 10
+
 
 def somaVar():
 	dicionario = get2014and2015()
@@ -28,14 +31,17 @@ def checkSum(lista):
 
 	return soma
 
-def melhorIndividuo(populacao):
+def melhorIndividuo(populacao, dicionario):
 	'''
 	Funcao que retorna o melhor individuo de uma populacao
 	'''
+	fit = []
+	for individuo in populacao:
+		fit.append(fnFitness(individuo, dicionario))
+	return list(populacao[fit.index(max(fit))])
 	# Organizar um dicionario por valor:
 	# OBS.: reverese = True --> Deixa a lista em formato decrescente
 	# sorted(x.items(), key=operator.itemgetter(1), reverse = True)
-	return "TESTE: INDIVIDUO"
 
 def atualizar(populacao, novaPopulacao, dicionario):
 	'''
@@ -45,25 +51,25 @@ def atualizar(populacao, novaPopulacao, dicionario):
 	novaPop = []
 	for individuo in populacao:
 		fit.append(fnFitness(individuo, dicionario))
-	for i in range(0, 35):
+	for i in range(int(tamPopulacao*0.3)):
 		posicao = fit.index(max(fit))
 		fit[posicao] = -8000000
 		novaPop.append(list(populacao[posicao]))
-	print ("fit =", fit)
+	#print ("fit =", fit)
 	fit = []
 	for individuo in novaPopulacao:
 		fit.append(fnFitness(individuo, dicionario))
-	for i in range(0,65):
+	for i in range(int(tamPopulacao*0.7)):
 		posicao = fit.index(max(fit))
 		fit[posicao] = -8000000
 		novaPop.append(list(novaPopulacao[posicao]))
 
-	print ("pop = ", populacao)
-	print ("novapop = ", novaPopulacao)
-	print ("fit =", fit)
-	print ( "novaPop = ", novaPop)
+	#print ("pop = ", populacao)
+	#print ("novapop = ", novaPopulacao)
+	#print ("fit =", fit)
+	#print ( "novaPop = ", novaPop)
 	print ("tamanho = ", len(novaPop)) 
-	return novaPop
+	return list(novaPop)
 
 def mutacao(filho):
 	'''
@@ -150,8 +156,9 @@ def gerarPopulacaoInicial(populacao):
 	'''
 	Esta funcao gera a populacao inicial para 8 individuos de forma aleatoria.
 	'''
+	global tamPopulacao
 	# for para gerar todos os individuos da populacao
-	for i in range(0, 100):
+	for i in range(tamPopulacao):
 		percentagem = 100
 		aux = []
 		# for para os cromossomos do individuo
@@ -173,17 +180,17 @@ def gerarPopulacaoInicial(populacao):
 
 def buscaGenetico():
 	populacao = []
-	N = 100 # Quantidade de filhos gerados a cada iteracao.
+	global numFilhos
+	N = numFilhos # Quantidade de filhos gerados a cada iteracao.
 	criterioParada = True
 	criterioParada = 0
 
 	dicVar = somaVar() # Soma as variâncias
 
 	gerarPopulacaoInicial(populacao)
-	#print( "Populcao: ", populacao	)
-	while criterioParada < 1000:
+	while criterioParada < 15000:
 		novaPopulacao = []
-
+		print( "Populcao: ", populacao, " / tamanho = ", len(populacao))
 		for i in range(0, N):
 			x = selecao(populacao, dicVar)
 			y = selecao(populacao, dicVar)
@@ -197,7 +204,7 @@ def buscaGenetico():
 
 		criterioParada +=1
 
-	return melhorIndividuo(populacao)
+	return melhorIndividuo(populacao, dicVar)
 
 def buscaProporcao(valor):
 	print("Gerando proporcoes de investimentos...")
@@ -218,15 +225,17 @@ def buscaProporcao(valor):
 				proporcoes[5], proporcoes[6], proporcoes[7], proporcoes[8], proporcoes[9]
 			)
 	)
-	saldo = [(proporcoes[0]/100) * valor, 
-			(proporcoes[1]/100) * valor, 
-			(proporcoes[2]/100) * valor, 
-			(proporcoes[3]/100) * valor, 
+	saldo = [(proporcoes[0]/100) * valor,
+			(proporcoes[1]/100) * valor,
+			(proporcoes[2]/100) * valor,
+			(proporcoes[3]/100) * valor,
 			(proporcoes[4]/100) * valor,
-			(proporcoes[5]/100) * valor, 
-			(proporcoes[6]/100) * valor, 
-			(proporcoes[7]/100) * valor, 
-			(proporcoes[8]/100) * valor, 
+			(proporcoes[5]/100) * valor,
+			(proporcoes[6]/100) * valor,
+			(proporcoes[7]/100) * valor,
+			(proporcoes[8]/100) * valor,
 			(proporcoes[9]/100) * valor]
+
+	print(saldo)
 
 	return saldo
