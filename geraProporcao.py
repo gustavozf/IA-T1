@@ -11,9 +11,12 @@ def somaVar():
 
 	for empresa in empresas:
 		dicVar[empresa] = []
-		dicVar[empresa].append(round(sum(dicionario[empresa]), 2)) # variancia dos dois anos
-		dicVar[empresa].append(round(sum(dicionario[empresa][:247]), 2)) # variancia de 2015
-		dicVar[empresa].append(round(sum(dicionario[empresa][:124]), 2)) # variancia de metade de 2015
+		dicVar[empresa].append(sum(dicionario[empresa][0])//493 ) # variancia dos dois anos
+		dicVar[empresa].append(sum(dicionario[empresa][:247][0])//247) # variancia de 2015
+		dicVar[empresa].append(sum(dicionario[empresa][:124][0])//124) # variancia de metade de 2015
+		dicVar[empresa].append(sum(dicionario[empresa][1])//493) # volume de dois anos
+		dicVar[empresa].append(sum(dicionario[empresa][:247][1])//247) #volume de 2015
+		dicVar[empresa].append(sum(dicionario[empresa][:124][1])//124) # volume de metade de 2015
 
 	return dicVar
 
@@ -111,8 +114,10 @@ def fnFitness(individuo, dicionario):
 
 	i = 0
 	fitness = 0
-	for empresa in empresas: #media pondereda, peso 1, 2 e 3
-		fitness += individuo[i] * (dicionario[empresa][0]*0.16) +  individuo[i] * (dicionario[empresa][1] * 0.34) + individuo[i] * (dicionario[empresa][2]*0.5)
+	for empresa in empresas: #media pondereda, peso 1, 2 e 3 + volume
+		fitness +=( individuo[i] * ((dicionario[empresa][0]+dicionario[empresa][3])*0.16) +  
+		individuo[i] * ((dicionario[empresa][1]+dicionario[empresa][4]) * 0.34) + 
+		individuo[i] * ((dicionario[empresa][2]+ dicionario[empresa][5])*0.5))
 		i += 1
 
 	return round(fitness, 2)
