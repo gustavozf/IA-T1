@@ -32,13 +32,35 @@ def melhorIndividuo(populacao):
 	# Organizar um dicionario por valor:
 	# OBS.: reverese = True --> Deixa a lista em formato decrescente
 	# sorted(x.items(), key=operator.itemgetter(1), reverse = True)
-	return "TESTE: INDIVIDUO" 
+	return "TESTE: INDIVIDUO"
 
-def atualizar(populacao, novaPopulacao):
+def atualizar(populacao, novaPopulacao, dicionario):
 	'''
 	Funcao que atualiza a populacao antiga com a nova. Elitista.
 	'''
-	print( "TESTE: ATUALIZACAO")
+	fit = []
+	novaPop = []
+	for individuo in populacao:
+		fit.append(fnFitness(individuo, dicionario))
+	for i in range(0, 35):
+		posicao = fit.index(max(fit))
+		fit[posicao] = -8000000
+		novaPop.append(list(populacao[posicao]))
+	print ("fit =", fit)
+	fit = []
+	for individuo in novaPopulacao:
+		fit.append(fnFitness(individuo, dicionario))
+	for i in range(0,65):
+		posicao = fit.index(max(fit))
+		fit[posicao] = -8000000
+		novaPop.append(list(novaPopulacao[posicao]))
+
+	print ("pop = ", populacao)
+	print ("novapop = ", novaPopulacao)
+	print ("fit =", fit)
+	print ( "novaPop = ", novaPop)
+	print ("tamanho = ", len(novaPop)) 
+	return novaPop
 
 def mutacao(filho):
 	'''
@@ -55,10 +77,10 @@ def reproduz(x, y):
 	soma = 0
 	diferenca = 0
 	porcentagem = 0
-	pontoDeCorte = random.randint(1, 8)	
+	pontoDeCorte = random.randint(1, 8)
 
 	filho = x[:pontoDeCorte] + y[pontoDeCorte:]
-	
+
 	#print( "Filho: ", filho)
 
 	# Verifica se o filho alcancou 100%
@@ -100,8 +122,8 @@ def selecao(populacao, dicionario):
 	Selecao realizada por torneio.
 	Seleciona dois individuos aleatorios da populacao e em seguida,
 	retorna o melhor!
-	'''	
-	
+	'''
+
 	primSelecionado = random.choice(populacao)
 	segunSelecionado = random.choice(populacao)
 
@@ -122,9 +144,9 @@ def pequenaProbabilidadeAleatoria():
 def gerarPopulacaoInicial(populacao):
 	'''
 	Esta funcao gera a populacao inicial para 8 individuos de forma aleatoria.
-	''' 
+	'''
 	# for para gerar todos os individuos da populacao
-	for i in range(0, 100): 
+	for i in range(0, 100):
 		percentagem = 100
 		aux = []
 		# for para os cromossomos do individuo
@@ -135,7 +157,7 @@ def gerarPopulacaoInicial(populacao):
 		for j in range(0,5):
 			valor = random.randint(0,percentagem)
 			aux.append(valor)
-			percentagem -= valor			
+			percentagem -= valor
 		if percentagem > 0:
 			aux.append(percentagem) # faz isso para dar ao ultimo, o resto da percentagem
 		else:
@@ -146,7 +168,7 @@ def gerarPopulacaoInicial(populacao):
 
 def buscaGenetico():
 	populacao = []
-	N = 65 # Quantidade de filhos gerados a cada iteracao.
+	N = 100 # Quantidade de filhos gerados a cada iteracao.
 	criterioParada = True
 	criterioParada = 0
 
@@ -163,29 +185,29 @@ def buscaGenetico():
 			filho = reproduz(x, y)
 
 			if (pequenaProbabilidadeAleatoria()):
-				mutacao(filho)	
+				mutacao(filho)
 			novaPopulacao.append(filho)
 
-		atualizar(populacao, novaPopulacao)
+		populacao = atualizar(populacao, novaPopulacao, dicVar)
 
-		criterioParada +=1	
+		criterioParada +=1
 
 	return melhorIndividuo(populacao)
 
 def buscaProporcao(valor):
 	print("Gerando proporcoes de investimentos...")
-	
+
 	proporcoes = buscaGenetico()
 	print(("As proporcoes estipuladas foram:\n"+
 			"\tAmbev: {0}%\n" +
 			"\tLojas Americanas: {1}%\n" +
 			"\tBanco do Brasil: {2}%\n" +
-			"\tCielo: {3}%\n" + 
+			"\tCielo: {3}%\n" +
 			"\tCopel: {4}%\n" +
 			"\tNatura: {5}%\n" +
 			"\tLojas Renner: {6}%\n" +
-			"\tSanepar: {7}%\n" + 
-			"\tVale: {8}%\n" + 
+			"\tSanepar: {7}%\n" +
+			"\tVale: {8}%\n" +
 			"\tWeg: {9}%\n").format(
 				proporcoes[0], proporcoes[1], proporcoes[2], proporcoes[3], proporcoes[4],
 				proporcoes[5], proporcoes[6], proporcoes[7], proporcoes[8], proporcoes[9]
