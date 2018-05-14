@@ -1,4 +1,4 @@
-import os, sys, random # bibliotecas que podem vir a ser uteis
+import os, sys, random, operator # bibliotecas que podem vir a ser uteis
 from math import ceil
 from dic import start
 
@@ -29,6 +29,9 @@ def melhorIndividuo(populacao):
 	'''
 	Funcao que retorna o melhor individuo de uma populacao
 	'''
+	# Organizar um dicionario por valor:
+	# OBS.: reverese = True --> Deixa a lista em formato decrescente
+	# sorted(x.items(), key=operator.itemgetter(1), reverse = True)
 	return "TESTE: INDIVIDUO" 
 
 def atualizar(populacao, novaPopulacao):
@@ -172,4 +175,19 @@ def buscaGenetico():
 def buscaProporcao(valor):
 	print("Gerando proporcoes de investimentos...")
 	
-	return buscaGenetico()
+	proporcoes = buscaGenetico()
+	print(("As proporcoes estipuladas foram:\n"+
+			"\tAmbev: {0}%\n" +
+			"\tLojas Americanas: {1}%\n" +
+			"\tBanco do Brasil: {2}%\n" +
+			"\tCielo: {3}%\n" + 
+			"\tCopel: {4}%\n" +
+			"\tNatura: {5}%\n" +
+			"\tLojas Renner: {6}%\n" +
+			"\tSanepar: {7}%\n" + 
+			"\tVale: {8}%\n" + 
+			"\tWeg: {9}%\n").format(
+				proporcoes[0], proporcoes[1], proporcoes[2], proporcoes[3], proporcoes[4],
+				proporcoes[5], proporcoes[6], proporcoes[7], proporcoes[8], proporcoes[9]
+			)
+	)

@@ -27,14 +27,14 @@ nome = Entry(tela)
 nome_label = Label(tela, text="Insira seu nome: ", fg = "blue")
 
 # Posiciona na tela
-nome_label.pack()
-nome.pack()
+nome_label.grid(row=0, column=0)
+nome.grid(row=0, column=1, columnspan=2)
 
 # Cria um botao
 botao1 = Button(text = "GO!", command = printa)
-botao1.pack()
+botao1.grid(row=1, column=1)
 
 resultado = Label(tela, text = "")
-resultado.pack()
+resultado.grid(row=2, column=1)
 
 tela.mainloop()
