@@ -14,6 +14,7 @@ def start():
     dicionario = {}
     empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel",  "natura", "renner", "sanepar", "vale", "weg"]
 
+    print("Importando dados de 2014-2015...")
     for empresa in empresas:
         dic(empresa, dicionario)
 

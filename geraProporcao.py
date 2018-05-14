@@ -2,18 +2,18 @@ import os, sys, random # bibliotecas que podem vir a ser uteis
 from math import ceil
 from dic import start
 
+empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel", "natura", "renner", "sanepar", "vale", "weg"]
+
 def somaVar():
 	dicionario = start()
-
 	dicVar = {}
-
-	empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel", "natura", "renner", "sanepar", "vale", "weg"]
+	global empresas
 
 	for empresa in empresas:
-    	dicVar[empresa] = []
-		dicVar[empresa].append(sum(dicionario[empresa])) # variancia dos dois anos
-		dicVar[empresa].append(sum(dicionario[empresa][:247])) # variancia de 2015
-		dicVar[empresa].append(sum(dicionario[empresa][:124])) # variancia de metade de 2015
+		dicVar[empresa] = []
+		dicVar[empresa].append(round(sum(dicionario[empresa]), 2)) # variancia dos dois anos
+		dicVar[empresa].append(round(sum(dicionario[empresa][:247]), 2)) # variancia de 2015
+		dicVar[empresa].append(round(sum(dicionario[empresa][:124]), 2)) # variancia de metade de 2015
 
 	return dicVar
 
@@ -30,12 +30,6 @@ def melhorIndividuo(populacao):
 	Funcao que retorna o melhor individuo de uma populacao
 	'''
 	return "TESTE: INDIVIDUO" 
-
-def checkCriterioParada():
-	'''
-	Verifica se ja esta hapto a parar
-	'''
-	return False 
 
 def atualizar(populacao, novaPopulacao):
 	'''
@@ -62,11 +56,11 @@ def reproduz(x, y):
 
 	filho = x[:pontoDeCorte] + y[pontoDeCorte:]
 	
-	print( "Filho: ", filho)
+	#print( "Filho: ", filho)
 
 	# Verifica se o filho alcancou 100%
 	soma = checkSum(filho)
-	print('soma: ', soma)
+	#print('soma: ', soma)
 
 	if soma != 100:
 		for i in range(10):
@@ -80,7 +74,7 @@ def reproduz(x, y):
 				filho[random.randint(0,9)] = resto
 
 	soma = checkSum(filho)
-	print( "Filho: {0} / Soma: {1}".format(filho, soma))
+	#print( "Filho: {0} / Soma: {1}".format(filho, soma))
 
 	return filho
 
@@ -88,16 +82,15 @@ def fnFitness(individuo, dicionario):
 	'''
 	Funcao que mede a adaptacao de um individuo
 	'''
-	empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel", "natura", "renner", "sanepar", "vale", "weg"]
+	global empresas
 
 	i = 0
-
+	fitness = 0
 	for empresa in empresas: #media pondereda, peso 1, 2 e 3
 		fitness += individuo[i] * (dicionario[empresa][0]*0.16) +  individuo[i] * (dicionario[empresa][1] * 0.34) + individuo[i] * (dicionario[empresa][2]*0.5)
 		i += 1
 
-	print( "TESTE: FITNESS"	)
-	return fitness
+	return round(fitness, 2)
 
 def selecao(populacao, dicionario):
 	'''
@@ -128,7 +121,7 @@ def gerarPopulacaoInicial(populacao):
 	Esta funcao gera a populacao inicial para 8 individuos de forma aleatoria.
 	''' 
 	# for para gerar todos os individuos da populacao
-	for i in range(0,8): 
+	for i in range(0, 100): 
 		percentagem = 100
 		aux = []
 		# for para os cromossomos do individuo
@@ -150,14 +143,15 @@ def gerarPopulacaoInicial(populacao):
 
 def buscaGenetico():
 	populacao = []
-	N = 1 # Quantidade de filhos gerados a cada iteracao.
+	N = 65 # Quantidade de filhos gerados a cada iteracao.
 	criterioParada = True
+	criterioParada = 0
 
 	dicVar = somaVar() # Soma as variâncias
 
 	gerarPopulacaoInicial(populacao)
-	print( "Populcao: ", populacao	)
-	while criterioParada:
+	#print( "Populcao: ", populacao	)
+	while criterioParada < 1000:
 		novaPopulacao = []
 
 		for i in range(0, N):
@@ -171,11 +165,11 @@ def buscaGenetico():
 
 		atualizar(populacao, novaPopulacao)
 
-		criterioParada = checkCriterioParada()	
+		criterioParada +=1	
 
 	return melhorIndividuo(populacao)
 
-def buscaProporcao(opcao):
-	print( "A opcao selecionada foi: {0}".format(opcao))
+def buscaProporcao(valor):
+	print("Gerando proporcoes de investimentos...")
 	
-	buscaGenetico()
+	return buscaGenetico()
