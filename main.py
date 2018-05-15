@@ -50,5 +50,5 @@ if __name__ == '__main__':
     total = setup(alg, disponivel)
     print("Fim de simulacao!\n" +
           "Total Acumulado = " +str(total)+ "\n" +
-          "Total de Lucro = " + str(round(total - valor,2)) +" ("+ str(((total-valor)/valor)*100)+ "%)\n\n" + 
+          "Total de Lucro = " + str(round(total - valor,2)) +" ("+ str(round(((total-valor)/valor)*100,2))+ "%)\n\n" + 
           "Para mais informacoes, veja o arquivo 'saida.txt'!\n")

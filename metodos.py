@@ -62,13 +62,13 @@ def cruzamentoMediaMovel(disponivel): # Mari - Media ponderada
             mediaCurta = sum(values2016[empresa][cont-curto:cont+1])/curto
             if (mediaLonga > mediaCurta): #vende
                 hoje = values2016[empresa][cont]
-                #if historico[empresa] < hoje:
+                if historico[empresa] < hoje:
                     #vende tudo e salva no lucro
-                saida.write("Empresa: " + empresa+ " / Status: Venda\n")
-                vendeu +=1
-                venda(cont, empresa, values2016, disponivel, cotacoes)
-                #else:
-                #    saida.write("Empresa: " + empresa+ " / Status: NADA\n")
+                    saida.write("Empresa: " + empresa+ " / Status: Venda\n")
+                    vendeu +=1
+                    venda(cont, empresa, values2016, disponivel, cotacoes)
+                else:
+                    saida.write("Empresa: " + empresa+ " / Status: NADA\n")
             elif(mediaLonga < mediaCurta): #compra
                 #compra tudo dessa empresa com o que tiver disponivel
                 compra(cont, empresa, values2016, disponivel, cotacoes, historico)
