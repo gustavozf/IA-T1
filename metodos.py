@@ -167,6 +167,7 @@ def mediaMovelExponencial(disponivel):
     cont = longo + 1
     dias = 248 + longo #dias de 2016
     historico = {}
+    copia = dict(disponivel)
 
     values2016 = get2016(longo) #dicionario com as infos de 15 e 16
     cotacoes = compraPrimeiroDia(cont,disponivel, values2016, historico)

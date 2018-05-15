@@ -211,7 +211,7 @@ def buscaGenetico():
 	dicVar = somaVar() # Soma as variâncias
 	print('Iniciando Busca...')
 	gerarPopulacaoInicial(populacao)
-	while criterioParada < 500:
+	while criterioParada < 1000:
 		novaPopulacao = []
 		#print( "Populcao: ", populacao, " / tamanho = ", len(populacao))
 		for i in range(0, N):
@@ -225,7 +225,7 @@ def buscaGenetico():
 
 		populacao = atualizar(populacao, novaPopulacao, dicVar)
 
-		
+		'''
 		melhorLocal =  melhorIndividuo(populacao, dicVar)
 		if not melhorGlobal:
 			melhorGlobal = list(melhorLocal)
@@ -234,8 +234,10 @@ def buscaGenetico():
 			melhorGlobal = list(melhorLocal)
 			criterioParada =0
 		else:
-			criterioParada +=1
-		plt.plot([criterioParada], [fnFitness(melhorLocal,dicVar)], 'r^')
+		'''
+		criterioParada +=1
+		
+		#plt.plot([criterioParada], [fnFitness(melhorLocal,dicVar)], 'r^')
 
 	#plt.show()
 	return melhorIndividuo(populacao, dicVar)
