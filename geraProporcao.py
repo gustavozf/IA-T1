@@ -126,7 +126,7 @@ def fnFitness(individuo, dicionario):
 		individuo[i] * ((dicionario[empresa][1]+dicionario[empresa][4]) * 0.34) + 
 		individuo[i] * ((dicionario[empresa][2]+ dicionario[empresa][5])*0.5))
 		'''
-		fitness +=( individuo[i] * (
+		fitness +=( (individuo[i]/100) * (
 									((dicionario[empresa][0]*0.16)+
 									(dicionario[empresa][1]*0.34)+
 									(dicionario[empresa][2]*0.5) * 0.95)

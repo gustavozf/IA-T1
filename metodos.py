@@ -2,9 +2,24 @@ from getInputs import get2016
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel",  "natura", "renner", "sanepar", "vale", "weg"]
 #curto, medio, longo = 21, 42, 100
-#curto, medio, longo = 8, 42, 89
-curto, medio, longo = 4, 9, 18
+curto, medio, longo = 8, 42, 89
+#curto, medio, longo = 4, 9, 18
 
+def printHistorico(saida, copia, disponivel, vendeu, comprou):
+    stringAux = "Historico geral: \n"
+    global empresas
+    for empresa in empresas:
+        if copia[empresa] > 0:
+            x = round(((disponivel[empresa]-copia[empresa])/copia[empresa])*100,2)
+        else:
+            x = 0.0
+        stringAux += "\tEmpresa: {0} / Inicial: {1} / Retornado: {2} ({3}%)\n".format(empresa, copia[empresa], disponivel[empresa], x)
+        #saida.write("\tEmpresa: {0} / Inicial: {1} / Retornado: {2} ({3}%)\n".format(empresa, copia[empresa], disponivel[empresa], x))
+    stringAux +="Total de Vendas = " + str(vendeu) + " / Total de Compras = " + str(comprou)+ " / Total = " +str(sum(disponivel.values())) + "\n"
+    #saida.write("Total de Vendas = " + str(vendeu) + " / Total de Compras = " + str(comprou)+ " / Total = " +str(sum(disponivel.values())) + "\n")
+    print(stringAux)
+    saida.write(stringAux)
+    saida.close()
 
 def vendeUltimoDia(cont, values2016, disponivel, cotacoes):
     for empresa in empresas:
@@ -36,10 +51,15 @@ def venda(index, empresa, values2016, disponivel, cotacoes):
 
 def compra(index, empresa, values2016, disponivel, cotacoes, historico):
     numeroCotacoes = (disponivel[empresa]//values2016[empresa][index]) # numero de cotacoes possiveis de serem compradas
-    valorGasto = numeroCotacoes * values2016[empresa][index] # numero de cotacoes
-    cotacoes[empresa] += numeroCotacoes
-    historico[empresa] = values2016[empresa][index]
-    disponivel[empresa] -= valorGasto
+    if numeroCotacoes > 0:
+        valorGasto = numeroCotacoes * values2016[empresa][index] # numero de cotacoes
+        cotacoes[empresa] += numeroCotacoes
+        historico[empresa] = values2016[empresa][index]
+        disponivel[empresa] -= valorGasto
+
+        return True
+    
+    return False
 
 def cruzamentoMediaMovel(disponivel): # Mari - Media ponderada
     global empresas
@@ -48,6 +68,7 @@ def cruzamentoMediaMovel(disponivel): # Mari - Media ponderada
     historico = {}
     global curto
     global longo
+    copia = dict(disponivel)
     saida = open('saida.txt', 'w')
     comprou = 0
     vendeu = 0
@@ -68,38 +89,40 @@ def cruzamentoMediaMovel(disponivel): # Mari - Media ponderada
                     vendeu +=1
                     venda(cont, empresa, values2016, disponivel, cotacoes)
                 else:
-                    saida.write("Empresa: " + empresa+ " / Status: NADA\n")
+                    saida.write("Empresa: " + empresa+ " / Status: Nao Vende\n")
             elif(mediaLonga < mediaCurta): #compra
                 #compra tudo dessa empresa com o que tiver disponivel
-                compra(cont, empresa, values2016, disponivel, cotacoes, historico)
-                comprou +=1    
-                saida.write("Empresa: " + empresa+ " / Status: Compra\n")
+                if compra(cont, empresa, values2016, disponivel, cotacoes, historico):
+                    comprou +=1   
+                    saida.write("Empresa: " + empresa+ " / Status: Compra\n")
+                else:
+                    saida.write("Empresa: " + empresa+ " / Status: Nao Compra\n")
         saida.write("Dia #" + str(cont)+ " / Total: " + str(sum(disponivel.values())) + "\n\n")
         cont+=1
 
-    saida.write("FIM! Total de Vendas = " + str(vendeu) + " / Total de Compras = " + str(comprou)+ " / Total = " +str(sum(disponivel.values())) + "\n")    
     vendeUltimoDia(cont, values2016, disponivel, cotacoes)
-    saida.write("\nVendendo tudo ao ultimo dia do ano! Total = " +  str(sum(disponivel.values())) +"\n")
-    saida.close()
-
+    printHistorico(saida, copia, disponivel, vendeu, comprou)
+    print("Fim de execucao!\n")
+    
     return sum(disponivel.values())
 
 def mediaMovelSimples(disponivel):
     global empresas
-    cont = 30 #
+    cont = longo #
     passo = cont -1
     dias = 248 + cont #dias de 2016, tirando o 1º
     saida = open('saida.txt', 'w')
+    copia = dict(disponivel)
     historico = {}
 
-    values2016 = get2016(cont-1)
+    values2016 = get2016(cont)
     print("Executando o Algoritmo: Media Movel Simples!")
 
     cotacoes = compraPrimeiroDia(cont,disponivel, values2016, historico)
     vendeu = comprou = 0
     while cont < dias:
         for empresa in empresas:
-            somaDias = sum(values2016[empresa][cont-passo:cont+1])/4
+            somaDias = sum(values2016[empresa][cont-passo:cont+1])/passo
             hoje = values2016[empresa][cont]
             #print(hoje, somaQuatroDias)
             if(hoje < somaDias):
@@ -108,19 +131,19 @@ def mediaMovelSimples(disponivel):
                     vendeu +=1
                     venda(cont, empresa, values2016, disponivel, cotacoes)
                 else:
-                    saida.write("Empresa: " + empresa+ " / Status: NADA\n")
-            elif (hoje > somaDias):
-                comprou +=1    
-                saida.write("Empresa: " + empresa+ " / Status: Compra\n")
-                compra(cont, empresa, values2016, disponivel, cotacoes, historico)
+                    saida.write("Empresa: " + empresa+ " / Status: Nao Vende\n")
+            elif (hoje > somaDias): 
+                if compra(cont, empresa, values2016, disponivel, cotacoes, historico):
+                    comprou +=1   
+                    saida.write("Empresa: " + empresa+ " / Status: Compra\n")
+                else:
+                    saida.write("Empresa: " + empresa+ " / Status: Nao Compra\n")
 
         saida.write("Dia #" + str(cont)+ " / Total: " + str(sum(disponivel.values())) + "\n\n")
-        cont += 30
+        cont += 1
 
-    saida.write("FIM! Total de Vendas = " + str(vendeu) + " / Total de Compras = " + str(comprou)+ " / Total = " +str(sum(disponivel.values())) + "\n")    
     vendeUltimoDia(cont, values2016, disponivel, cotacoes)
-    saida.write("\nVendendo tudo ao ultimo dia do ano! Total = " +  str(sum(disponivel.values())) +"\n")
-    saida.close()
+    printHistorico(saida, copia, disponivel, vendeu, comprou)
 
     return sum(disponivel.values())
 
@@ -138,3 +161,6 @@ def mediaMovelExponencial(disponivel):
             print("ha")
     
     return "teste"
+
+def otimo(disponivel):
+    return sum(disponivel.values())
