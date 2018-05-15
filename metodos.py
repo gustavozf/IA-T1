@@ -36,10 +36,15 @@ def venda(index, empresa, values2016, disponivel, cotacoes):
 
 def compra(index, empresa, values2016, disponivel, cotacoes, historico):
     numeroCotacoes = (disponivel[empresa]//values2016[empresa][index]) # numero de cotacoes possiveis de serem compradas
-    valorGasto = numeroCotacoes * values2016[empresa][index] # numero de cotacoes
-    cotacoes[empresa] += numeroCotacoes
-    historico[empresa] = values2016[empresa][index]
-    disponivel[empresa] -= valorGasto
+    if numeroCotacoes > 0:
+        valorGasto = numeroCotacoes * values2016[empresa][index] # numero de cotacoes
+        cotacoes[empresa] += numeroCotacoes
+        historico[empresa] = values2016[empresa][index]
+        disponivel[empresa] -= valorGasto
+
+        return True
+    
+    return False
 
 def cruzamentoMediaMovel(disponivel): # Mari - Media ponderada
     global empresas
@@ -62,18 +67,20 @@ def cruzamentoMediaMovel(disponivel): # Mari - Media ponderada
             mediaCurta = sum(values2016[empresa][cont-curto:cont+1])/curto
             if (mediaLonga > mediaCurta): #vende
                 hoje = values2016[empresa][cont]
-                #if historico[empresa] < hoje:
+                if historico[empresa] < hoje:
                     #vende tudo e salva no lucro
-                saida.write("Empresa: " + empresa+ " / Status: Venda\n")
-                vendeu +=1
-                venda(cont, empresa, values2016, disponivel, cotacoes)
-                #else:
-                #    saida.write("Empresa: " + empresa+ " / Status: NADA\n")
+                    saida.write("Empresa: " + empresa+ " / Status: Venda\n")
+                    vendeu +=1
+                    venda(cont, empresa, values2016, disponivel, cotacoes)
+                else:
+                    saida.write("Empresa: " + empresa+ " / Status: Nao Vende\n")
             elif(mediaLonga < mediaCurta): #compra
                 #compra tudo dessa empresa com o que tiver disponivel
-                compra(cont, empresa, values2016, disponivel, cotacoes, historico)
-                comprou +=1    
-                saida.write("Empresa: " + empresa+ " / Status: Compra\n")
+                if compra(cont, empresa, values2016, disponivel, cotacoes, historico):
+                    comprou +=1   
+                    saida.write("Empresa: " + empresa+ " / Status: Compra\n")
+                else:
+                    saida.write("Empresa: " + empresa+ " / Status: Nao Compra\n")
         saida.write("Dia #" + str(cont)+ " / Total: " + str(sum(disponivel.values())) + "\n\n")
         cont+=1
 
@@ -86,7 +93,7 @@ def cruzamentoMediaMovel(disponivel): # Mari - Media ponderada
 
 def mediaMovelSimples(disponivel):
     global empresas
-    cont = 30 #
+    cont = 4 #
     passo = cont -1
     dias = 248 + cont #dias de 2016, tirando o 1º
     saida = open('saida.txt', 'w')
@@ -99,7 +106,7 @@ def mediaMovelSimples(disponivel):
     vendeu = comprou = 0
     while cont < dias:
         for empresa in empresas:
-            somaDias = sum(values2016[empresa][cont-passo:cont+1])/4
+            somaDias = sum(values2016[empresa][cont-passo:cont+1])/passo
             hoje = values2016[empresa][cont]
             #print(hoje, somaQuatroDias)
             if(hoje < somaDias):
@@ -108,14 +115,16 @@ def mediaMovelSimples(disponivel):
                     vendeu +=1
                     venda(cont, empresa, values2016, disponivel, cotacoes)
                 else:
-                    saida.write("Empresa: " + empresa+ " / Status: NADA\n")
-            elif (hoje > somaDias):
-                comprou +=1    
-                saida.write("Empresa: " + empresa+ " / Status: Compra\n")
-                compra(cont, empresa, values2016, disponivel, cotacoes, historico)
+                    saida.write("Empresa: " + empresa+ " / Status: Nao Vende\n")
+            elif (hoje > somaDias): 
+                if compra(cont, empresa, values2016, disponivel, cotacoes, historico):
+                    comprou +=1   
+                    saida.write("Empresa: " + empresa+ " / Status: Compra\n")
+                else:
+                    saida.write("Empresa: " + empresa+ " / Status: Nao Compra\n")
 
         saida.write("Dia #" + str(cont)+ " / Total: " + str(sum(disponivel.values())) + "\n\n")
-        cont += 30
+        cont += 1
 
     saida.write("FIM! Total de Vendas = " + str(vendeu) + " / Total de Compras = " + str(comprou)+ " / Total = " +str(sum(disponivel.values())) + "\n")    
     vendeUltimoDia(cont, values2016, disponivel, cotacoes)
