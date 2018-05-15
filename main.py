@@ -46,5 +46,9 @@ if __name__ == '__main__':
         disponivel[empresa] = proporcao[i]
         i +=1
 
-    setup(alg, disponivel)
-    
+    print('Simulando...')
+    total = setup(alg, disponivel)
+    print("Fim de simulacao!\n" +
+          "Total Acumulado = " +str(total)+ "\n" +
+          "Total de Lucro = " + str(round(total - valor,2)) +" ("+ str(((total-valor)/valor)*100)+ "%)\n\n" + 
+          "Para mais informacoes, veja o arquivo 'saida.txt'!\n")

@@ -68,7 +68,7 @@ def atualizar(populacao, novaPopulacao, dicionario):
 	#print ("novapop = ", novaPopulacao)
 	#print ("fit =", fit)
 	#print ( "novaPop = ", novaPop)
-	print ("tamanho = ", len(novaPop)) 
+	#print ("tamanho = ", len(novaPop)) 
 	return list(novaPop)
 
 def mutacao(filho):
@@ -203,7 +203,7 @@ def buscaGenetico():
 	gerarPopulacaoInicial(populacao)
 	while criterioParada < 100:
 		novaPopulacao = []
-		print( "Populcao: ", populacao, " / tamanho = ", len(populacao))
+		#print( "Populcao: ", populacao, " / tamanho = ", len(populacao))
 		for i in range(0, N):
 			x = selecao(populacao, dicVar)
 			y = selecao(populacao, dicVar)
@@ -224,21 +224,7 @@ def buscaProporcao(valor):
 	print("Gerando proporcoes de investimentos...")
 
 	proporcoes = buscaGenetico()
-	print(("As proporcoes estipuladas foram:\n"+
-			"\tAmbev: {0}%\n" +
-			"\tLojas Americanas: {1}%\n" +
-			"\tBanco do Brasil: {2}%\n" +
-			"\tCielo: {3}%\n" +
-			"\tCopel: {4}%\n" +
-			"\tNatura: {5}%\n" +
-			"\tLojas Renner: {6}%\n" +
-			"\tSanepar: {7}%\n" +
-			"\tVale: {8}%\n" +
-			"\tWeg: {9}%\n").format(
-				proporcoes[0], proporcoes[1], proporcoes[2], proporcoes[3], proporcoes[4],
-				proporcoes[5], proporcoes[6], proporcoes[7], proporcoes[8], proporcoes[9]
-			)
-	)
+	
 	saldo = [
 			round((proporcoes[0]/100) * valor,2),
 			round((proporcoes[1]/100) * valor,2),
@@ -251,5 +237,22 @@ def buscaProporcao(valor):
 			round((proporcoes[8]/100) * valor,2),
 			round((proporcoes[9]/100) * valor,2)]
 
-	print(saldo)
+	print(("As proporcoes estipuladas foram:\n"+
+			"\tAmbev: R${10} ({0}%)\n" +
+			"\tLojas Americanas: R${11} ({1}%)\n" +
+			"\tBanco do Brasil: R${12} ({2}%)\n" +
+			"\tCielo: R${13} ({3}%)\n" +
+			"\tCopel: R${14} ({4}%)\n" +
+			"\tNatura: R${15} ({5}%)\n" +
+			"\tLojas Renner: R${16} ({6}%)\n" +
+			"\tSanepar: R${17} ({7}%)\n" +
+			"\tVale: R${18} ({8}%)\n" +
+			"\tWeg: R${19} ({9}%)\n").format(
+				proporcoes[0], proporcoes[1], proporcoes[2], proporcoes[3], proporcoes[4],
+				proporcoes[5], proporcoes[6], proporcoes[7], proporcoes[8], proporcoes[9],
+				saldo[0], saldo[1], saldo[2], saldo[3], saldo[4],
+				saldo[5], saldo[6], saldo[7], saldo[8], saldo[9],
+			)
+	)
+
 	return saldo
