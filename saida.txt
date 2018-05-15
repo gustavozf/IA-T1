@@ -1,379 +1,604 @@
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Vende
+Dia #90 / Total: 6.53000000002794
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #90 / Total: 86.0099999999893
+=======
+Dia #91 / Total: 6.53000000002794
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #91 / Total: 86.0099999999893
+=======
+Dia #92 / Total: 6.53000000002794
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Compra
+Dia #93 / Total: 6.53000000002794
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #92 / Total: 86.0099999999893
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #93 / Total: 86.0099999999893
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #94 / Total: 86.0099999999893
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #95 / Total: 86.0099999999893
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #96 / Total: 86.0099999999893
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #97 / Total: 86.0099999999893
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #98 / Total: 86.0099999999893
+=======
+Dia #94 / Total: 6.53000000002794
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Vende
+Dia #95 / Total: 6.53000000002794
+
+Empresa: ambev / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #93 / Total: 86.0099999999893
+=======
+Dia #96 / Total: 6.53000000002794
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+<<<<<<< HEAD
+Empresa: weg / Status: Nao Compra
+Dia #94 / Total: 86.0099999999893
+=======
+Empresa: weg / Status: Nao Vende
+Dia #97 / Total: 6.53000000002794
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Compra
+Dia #98 / Total: 6.53000000002794
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #95 / Total: 86.0099999999893
+=======
+Dia #99 / Total: 6.53000000002794
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+<<<<<<< HEAD
+Empresa: weg / Status: Nao Compra
+Dia #96 / Total: 86.0099999999893
+=======
+Empresa: weg / Status: Nao Vende
+Dia #100 / Total: 6.53000000002794
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #97 / Total: 86.0099999999893
+=======
+Dia #101 / Total: 6.53000000002794
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+<<<<<<< HEAD
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+Dia #98 / Total: 86.0099999999893
+=======
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Vende
+Dia #102 / Total: 6.53000000002794
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
 Dia #99 / Total: 86.0099999999893
+=======
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Vende
+Dia #103 / Total: 6.53000000002794
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Vende
+Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #100 / Total: 86.0099999999893
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Compra
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
+=======
+Dia #104 / Total: 6.53000000002794
+
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #101 / Total: 68.3099999999893
+=======
+Empresa: weg / Status: Nao Vende
+Dia #105 / Total: 509729.81000000006
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #102 / Total: 68.3099999999893
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #103 / Total: 68.3099999999893
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #102 / Total: 68.3099999999893
+=======
+Dia #106 / Total: 509729.81000000006
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+<<<<<<< HEAD
+Empresa: weg / Status: Nao Compra
+Dia #103 / Total: 68.3099999999893
+=======
+Empresa: weg / Status: Venda
+Dia #107 / Total: 1013308.3900000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
 Dia #104 / Total: 68.3099999999893
+=======
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Compra
+Dia #108 / Total: 10.070000000065193
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Compra
+Dia #109 / Total: 10.070000000065193
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #105 / Total: 68.3099999999893
+=======
+Empresa: weg / Status: Nao Vende
+Dia #110 / Total: 10.070000000065193
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #106 / Total: 68.3099999999893
+=======
+Dia #111 / Total: 10.070000000065193
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Venda
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #107 / Total: 10322.029999999988
+=======
+Dia #112 / Total: 10.070000000065193
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Venda
+Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
 Dia #108 / Total: 10322.029999999988
+=======
+Empresa: vale / Status: Nao Compra
+Dia #113 / Total: 10.070000000065193
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Compra
+Dia #114 / Total: 10.070000000065193
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Venda
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #109 / Total: 10322.029999999988
+=======
+Empresa: weg / Status: Nao Vende
+Dia #115 / Total: 10.070000000065193
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Venda
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #110 / Total: 10322.029999999988
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Venda
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #111 / Total: 20400.829999999987
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Compra
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #112 / Total: 10152.829999999987
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #113 / Total: 10152.829999999987
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #110 / Total: 10322.029999999988
+=======
+Dia #116 / Total: 10.070000000065193
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #111 / Total: 20400.829999999987
+=======
+Dia #117 / Total: 10.070000000065193
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #112 / Total: 10152.829999999987
+=======
+Dia #118 / Total: 10.070000000065193
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Vende
+Dia #119 / Total: 10.070000000065193
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #113 / Total: 10152.829999999987
+=======
+Dia #120 / Total: 10.070000000065193
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #114 / Total: 10152.829999999987
+=======
+Empresa: weg / Status: Nao Vende
+Dia #121 / Total: 514990.25000000006
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Venda
-Empresa: vale / Status: Nao Vende
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #115 / Total: 10152.829999999987
+=======
+Dia #122 / Total: 3.470000000030268
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Venda
-Empresa: vale / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #116 / Total: 10152.829999999987
+=======
+Dia #123 / Total: 3.470000000030268
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Venda
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
 Dia #117 / Total: 10152.829999999987
+=======
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Vende
+Dia #124 / Total: 3.470000000030268
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Venda
-Empresa: vale / Status: Nao Vende
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #118 / Total: 10152.829999999987
+=======
+Dia #125 / Total: 3.470000000030268
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #119 / Total: 10152.829999999987
+=======
+Empresa: weg / Status: Nao Vende
+Dia #126 / Total: 3.470000000030268
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #120 / Total: 10152.829999999987
+=======
+Empresa: weg / Status: Nao Vende
+Dia #127 / Total: 3.470000000030268
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: copel / Status: Venda
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
@@ -381,48 +606,72 @@ Empresa: sanepar / Status: Venda
 Empresa: vale / Status: Venda
 Empresa: weg / Status: Nao Compra
 Dia #121 / Total: 41636.26999999999
+=======
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #128 / Total: 3.470000000030268
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #122 / Total: 41636.26999999999
+=======
+Dia #129 / Total: 520066.79000000004
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: weg / Status: Compra
 Dia #123 / Total: 41623.19999999999
+=======
+Empresa: weg / Status: Nao Vende
+Dia #130 / Total: 520066.79000000004
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #124 / Total: 41623.19999999999
+=======
+Empresa: weg / Status: Nao Vende
+Dia #131 / Total: 520066.79000000004
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
@@ -441,42 +690,62 @@ Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #126 / Total: 10141.19999999999
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Venda
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+=======
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Vende
+Dia #132 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #127 / Total: 60232.55999999999
+=======
+Dia #133 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Venda
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #128 / Total: 60232.55999999999
+=======
+Dia #134 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #129 / Total: 63.41999999999687
+=======
+Dia #135 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -484,13 +753,17 @@ Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #130 / Total: 63.41999999999687
+=======
+Dia #136 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
@@ -498,105 +771,172 @@ Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #131 / Total: 63.41999999999687
+=======
+Empresa: vale / Status: Nao Vende
+Dia #137 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #132 / Total: 63.41999999999687
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #138 / Total: 1.790000000037253
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #139 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #133 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #140 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #134 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #141 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #135 / Total: 63.41999999999687
+=======
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #142 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #136 / Total: 63.41999999999687
+=======
+Dia #143 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #137 / Total: 63.41999999999687
+=======
+Dia #144 / Total: 1.790000000037253
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #145 / Total: 526891.79
+
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #138 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #146 / Total: 526891.79
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #139 / Total: 63.41999999999687
+=======
+Dia #147 / Total: 17.84000000008382
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -608,7 +948,22 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #140 / Total: 63.41999999999687
+=======
+Dia #148 / Total: 17.84000000008382
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #149 / Total: 17.84000000008382
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -620,19 +975,27 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #141 / Total: 63.41999999999687
+=======
+Dia #150 / Total: 17.84000000008382
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #142 / Total: 63.41999999999687
+=======
+Dia #151 / Total: 17.84000000008382
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -643,35 +1006,82 @@ Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #143 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #152 / Total: 17.84000000008382
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #144 / Total: 63.41999999999687
+=======
+Dia #153 / Total: 17.84000000008382
+
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+Dia #154 / Total: 17.84000000008382
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #145 / Total: 63.41999999999687
+=======
+Dia #155 / Total: 17.84000000008382
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #156 / Total: 17.84000000008382
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #157 / Total: 17.84000000008382
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
@@ -680,7 +1090,22 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #146 / Total: 63.41999999999687
+=======
+Dia #158 / Total: 17.84000000008382
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #159 / Total: 17.84000000008382
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -689,84 +1114,220 @@ Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #147 / Total: 63.41999999999687
+=======
+Dia #160 / Total: 17.84000000008382
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Venda
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #148 / Total: 63.41999999999687
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #161 / Total: 527166.92
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #149 / Total: 63.41999999999687
+=======
+Dia #162 / Total: 527166.92
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #150 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #163 / Total: 17.84000000008382
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #151 / Total: 63.41999999999687
+=======
+Dia #164 / Total: 17.84000000008382
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #165 / Total: 529367.9600000001
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #166 / Total: 1036956.76
+
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #167 / Total: 1036956.76
+
+Empresa: ambev / Status: Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #152 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Compra
+Dia #168 / Total: 1.5300000000861473
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Venda
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #153 / Total: 63.41999999999687
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #169 / Total: 1043242.3
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
+Empresa: weg / Status: Nao Compra
+Dia #154 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Compra
+Dia #170 / Total: 532642.6000000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #155 / Total: 63.41999999999687
+=======
+Dia #171 / Total: 532642.6000000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
+Empresa: weg / Status: Nao Compra
+Dia #156 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #172 / Total: 14.680000000051223
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #157 / Total: 63.41999999999687
+=======
+Dia #173 / Total: 14.680000000051223
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
@@ -775,287 +1336,368 @@ Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
-Dia #154 / Total: 63.41999999999687
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
-Dia #155 / Total: 63.41999999999687
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
-Dia #156 / Total: 63.41999999999687
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
-Dia #157 / Total: 63.41999999999687
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #158 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #174 / Total: 14.680000000051223
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #175 / Total: 523035.28
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #159 / Total: 63.41999999999687
+=======
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #176 / Total: 15.429999999993015
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Venda
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #160 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Venda
+Dia #177 / Total: 1063866.9700000002
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: ambev / Status: Compra
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #161 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Compra
+Dia #178 / Total: 29.31000000005588
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Venda
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #162 / Total: 63.41999999999687
+=======
+Dia #179 / Total: 534054.5800000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #163 / Total: 63.41999999999687
+=======
+Dia #180 / Total: 27.70000000006985
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #164 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #181 / Total: 27.70000000006985
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #165 / Total: 63.41999999999687
+=======
+Dia #182 / Total: 535205.5000000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #166 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #183 / Total: 29.860000000102445
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #167 / Total: 63.41999999999687
+=======
+Dia #184 / Total: 29.860000000102445
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #168 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #185 / Total: 539535.4000000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #169 / Total: 63.41999999999687
+=======
+Dia #186 / Total: 539535.4000000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #170 / Total: 63.41999999999687
+=======
+Dia #187 / Total: 539535.4000000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #171 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #188 / Total: 22.450000000186265
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #172 / Total: 63.41999999999687
+=======
+Dia #189 / Total: 22.450000000186265
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #173 / Total: 63.41999999999687
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #190 / Total: 544888.2700000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #174 / Total: 63.41999999999687
+=======
+Dia #191 / Total: 16.190000000060536
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Venda
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #175 / Total: 63.41999999999687
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #192 / Total: 551105.6900000001
+
+Empresa: ambev / Status: Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #193 / Total: 24.349999999976717
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #176 / Total: 63.41999999999687
+=======
+Dia #194 / Total: 24.349999999976717
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #195 / Total: 24.349999999976717
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #177 / Total: 63.41999999999687
+=======
+Dia #196 / Total: 24.349999999976717
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
@@ -1063,65 +1705,95 @@ Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #178 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Compra
+Dia #197 / Total: 10.019999999976717
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #179 / Total: 63.41999999999687
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #198 / Total: 496968.67
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #180 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Compra
+Dia #199 / Total: 21.60999999998603
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #181 / Total: 63.41999999999687
+=======
+Dia #200 / Total: 21.60999999998603
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #182 / Total: 63.41999999999687
+=======
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #201 / Total: 507277.3
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #183 / Total: 63.41999999999687
@@ -1149,81 +1821,135 @@ Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #185 / Total: 63.41999999999687
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #202 / Total: 17.14000000001397
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #203 / Total: 511960.81000000006
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #186 / Total: 63.41999999999687
+=======
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #204 / Total: 511960.81000000006
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #187 / Total: 63.41999999999687
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #205 / Total: 21.970000000030268
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #188 / Total: 63.41999999999687
+=======
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #206 / Total: 517996.15
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #189 / Total: 63.41999999999687
+=======
+Empresa: weg / Status: Compra
+Dia #207 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #190 / Total: 63.41999999999687
+=======
+Dia #208 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Venda
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #191 / Total: 10154.819999999996
+=======
+Dia #209 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
@@ -1233,37 +1959,59 @@ Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #192 / Total: 10154.819999999996
+=======
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Dia #210 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: natura / Status: Venda
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #193 / Total: 10154.819999999996
+=======
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Dia #211 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #194 / Total: 10154.819999999996
+=======
+Dia #212 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
@@ -1293,18 +2041,29 @@ Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #197 / Total: 55.91999999999687
+=======
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+Dia #213 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #198 / Total: 55.91999999999687
+=======
+Dia #214 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1313,52 +2072,74 @@ Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #199 / Total: 55.91999999999687
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Dia #215 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #200 / Total: 55.91999999999687
+=======
+Empresa: weg / Status: Nao Vende
+Dia #216 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #201 / Total: 55.91999999999687
+=======
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #217 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #202 / Total: 55.91999999999687
+=======
+Dia #218 / Total: 23.350000000034925
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: natura / Status: Venda
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
@@ -1377,34 +2158,54 @@ Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #204 / Total: 10401.779999999997
+=======
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #219 / Total: 10.140000000034924
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Venda
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #205 / Total: 10401.779999999997
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #220 / Total: 489829.73000000004
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Venda
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #206 / Total: 10401.779999999997
+=======
+Empresa: weg / Status: Nao Vende
+Dia #221 / Total: 489829.73000000004
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Compra
@@ -1886,123 +2687,203 @@ Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
+=======
+Empresa: cielo / Status: Nao Vende
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #247 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #222 / Total: 489829.73000000004
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #223 / Total: 489829.73000000004
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #248 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #224 / Total: 489829.73000000004
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #249 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #225 / Total: 489829.73000000004
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #250 / Total: 87.41999999999504
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #226 / Total: 489829.73000000004
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #251 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #227 / Total: 489829.73000000004
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #252 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #228 / Total: 24.260000000009313
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #253 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #229 / Total: 493548.06
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #254 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #230 / Total: 493548.06
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Venda
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #231 / Total: 1045196.94
+
+Empresa: ambev / Status: Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #255 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Compra
+Dia #232 / Total: 22.14000000001397
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #256 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Venda
+Dia #233 / Total: 1057852.74
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
@@ -2010,35 +2891,64 @@ Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #257 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #234 / Total: 21.710000000020955
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #235 / Total: 500987.96
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #258 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #236 / Total: 500987.96
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #259 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #237 / Total: 1066195.1600000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
@@ -2046,86 +2956,149 @@ Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #260 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #238 / Total: 1066195.1600000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #261 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #239 / Total: 1066195.1600000001
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #262 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Compra
+Dia #240 / Total: 15.480000000039581
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #241 / Total: 1091919.75
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #263 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Compra
+Dia #242 / Total: 574954.8
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #243 / Total: 1095251.1
+
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #264 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #244 / Total: 574966.5
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #265 / Total: 87.41999999999504
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #245 / Total: 1098597.96
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #266 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Compra
+Dia #246 / Total: 17.15999999991618
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
@@ -2133,128 +3106,209 @@ Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #267 / Total: 87.41999999999504
+=======
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #247 / Total: 0.15999999991618097
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #268 / Total: 87.41999999999504
+=======
+Dia #248 / Total: 0.15999999991618097
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #269 / Total: 87.41999999999504
+=======
+Dia #249 / Total: 0.15999999991618097
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #270 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #250 / Total: 0.15999999991618097
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #271 / Total: 87.41999999999504
+=======
+Dia #251 / Total: 0.15999999991618097
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #272 / Total: 87.41999999999504
+=======
+Dia #252 / Total: 0.15999999991618097
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #253 / Total: 0.15999999991618097
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #273 / Total: 87.41999999999504
+=======
+Dia #254 / Total: 0.15999999991618097
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #274 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #255 / Total: 0.15999999991618097
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #275 / Total: 87.41999999999504
+=======
+Dia #256 / Total: 0.15999999991618097
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #257 / Total: 0.15999999991618097
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #276 / Total: 87.41999999999504
+=======
+Dia #258 / Total: 0.15999999991618097
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Venda
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #259 / Total: 1099072.99
+
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #277 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #260 / Total: 1099072.99
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
@@ -2263,20 +3317,30 @@ Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #278 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Compra
+Dia #261 / Total: 11.559999999939464
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #279 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #262 / Total: 537420.1199999999
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2287,188 +3351,427 @@ Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #280 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Compra
+Dia #263 / Total: 8.069999999948777
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #264 / Total: 538711.2
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #281 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #265 / Total: 538711.2
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #282 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Compra
+Dia #266 / Total: 15.60999999998603
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #267 / Total: 546161.59
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #268 / Total: 546161.59
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #269 / Total: 16.459999999962747
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #283 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Venda
+Dia #270 / Total: 560222.67
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #284 / Total: 87.41999999999504
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #271 / Total: 12.67000000004191
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #285 / Total: 87.41999999999504
+=======
+Dia #272 / Total: 12.67000000004191
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #273 / Total: 12.67000000004191
+
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #274 / Total: 1145200.27
+
+Empresa: ambev / Status: Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #286 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Compra
+Dia #275 / Total: 13.449999999953434
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: ambev / Status: Venda
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #287 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Venda
+Dia #276 / Total: 1151683.71
+
+Empresa: ambev / Status: Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #277 / Total: 568564.96
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #288 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Compra
+Dia #278 / Total: 15.039999999920838
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #279 / Total: 574356.64
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #289 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #280 / Total: 574356.64
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #290 / Total: 87.41999999999504
+=======
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #281 / Total: 21.5
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #291 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #282 / Total: 580425.81
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #292 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Compra
+Dia #283 / Total: 21.210000000079162
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
-Dia #293 / Total: 87.41999999999504
+Empresa: weg / Status: Venda
+Dia #284 / Total: 581730.0900000001
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #285 / Total: 6.60999999998603
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #286 / Total: 592416.1699999999
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #287 / Total: 592416.1699999999
+
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
+Empresa: weg / Status: Nao Compra
+Dia #293 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Compra
+Dia #288 / Total: 6.60999999998603
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #289 / Total: 599094.97
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #294 / Total: 87.41999999999504
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #290 / Total: 23.380000000004657
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #295 / Total: 87.41999999999504
+=======
+Dia #291 / Total: 23.380000000004657
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2476,71 +3779,98 @@ Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #296 / Total: 87.41999999999504
+=======
+Dia #292 / Total: 23.380000000004657
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #297 / Total: 87.41999999999504
+=======
+Dia #293 / Total: 23.380000000004657
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #298 / Total: 87.41999999999504
+=======
+Dia #294 / Total: 23.380000000004657
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #299 / Total: 87.41999999999504
+=======
+Dia #295 / Total: 23.380000000004657
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #300 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #296 / Total: 23.380000000004657
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #301 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #297 / Total: 6.330000000004656
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2549,34 +3879,137 @@ Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #302 / Total: 87.41999999999504
+=======
+Dia #298 / Total: 6.330000000004656
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Compra
 Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #303 / Total: 87.41999999999504
+=======
+Empresa: weg / Status: Nao Vende
+Dia #299 / Total: 6.330000000004656
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Venda
+Dia #300 / Total: 575680.83
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #304 / Total: 87.41999999999504
+=======
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #301 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #305 / Total: 87.41999999999504
+=======
+Dia #302 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #306 / Total: 10489.359999999995
+=======
+Dia #303 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #307 / Total: 10489.359999999995
+=======
+Dia #304 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #305 / Total: 9.82999999995809
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
+Empresa: weg / Status: Nao Compra
+Dia #308 / Total: 10489.359999999995
+=======
+Empresa: weg / Status: Nao Vende
+Dia #306 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2588,96 +4021,65 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #305 / Total: 87.41999999999504
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Venda
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
-Dia #306 / Total: 10489.359999999995
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Venda
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
-Dia #307 / Total: 10489.359999999995
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Venda
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
-Dia #308 / Total: 10489.359999999995
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Compra
-Empresa: natura / Status: Venda
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #309 / Total: 10489.359999999995
+=======
+Dia #307 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Venda
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Nao Compra
 Dia #310 / Total: 22035.339999999997
+=======
+Empresa: weg / Status: Nao Vende
+Dia #308 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Venda
-Empresa: renner / Status: Venda
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #311 / Total: 35729.84
+=======
+Dia #309 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Venda
-Empresa: renner / Status: Venda
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #312 / Total: 35729.84
+=======
+Dia #310 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: copel / Status: Venda
 Empresa: natura / Status: Venda
 Empresa: renner / Status: Venda
@@ -2685,280 +4087,422 @@ Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #313 / Total: 35729.84
+=======
+Empresa: copel / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #311 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Venda
-Empresa: renner / Status: Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #314 / Total: 22046.719999999998
+=======
+Dia #312 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #315 / Total: 22046.719999999998
+=======
+Dia #313 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Compra
+Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Venda
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #316 / Total: 22046.719999999998
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #314 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #317 / Total: 22046.719999999998
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
-Dia #318 / Total: 22046.719999999998
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
-Dia #319 / Total: 22046.719999999998
+=======
+Dia #315 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #318 / Total: 22046.719999999998
+=======
+Dia #316 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
+Dia #319 / Total: 22046.719999999998
+=======
+Dia #317 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #320 / Total: 22046.719999999998
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #318 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
+<<<<<<< HEAD
 Dia #321 / Total: 22046.719999999998
+=======
+Dia #319 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
 Dia #322 / Total: 22046.719999999998
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #320 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Vende
+Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Venda
 Dia #323 / Total: 485924.57
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #321 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Venda
 Dia #324 / Total: 485924.57
+=======
+Empresa: weg / Status: Nao Vende
+Dia #322 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Venda
 Dia #325 / Total: 485924.57
+=======
+Empresa: weg / Status: Nao Vende
+Dia #323 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Vende
+Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Venda
 Dia #326 / Total: 485924.57
+=======
+Empresa: weg / Status: Nao Compra
+Dia #324 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Venda
 Dia #327 / Total: 485924.57
+=======
+Empresa: weg / Status: Nao Compra
+Dia #325 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Venda
 Dia #328 / Total: 485924.57
+=======
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #326 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Venda
 Dia #329 / Total: 485924.57
+=======
+Empresa: weg / Status: Nao Compra
+Dia #327 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
+Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Venda
 Dia #330 / Total: 485924.57
+=======
+Empresa: weg / Status: Nao Vende
+Dia #328 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+Dia #329 / Total: 9.82999999995809
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Venda
 Dia #331 / Total: 485924.57
+=======
+Empresa: weg / Status: Nao Vende
+Dia #330 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
 Empresa: bancodobrasil / Status: Nao Compra
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Venda
 Dia #332 / Total: 485924.57
+=======
+Empresa: weg / Status: Nao Compra
+Dia #331 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Venda
 Dia #333 / Total: 485924.57
+=======
+Empresa: weg / Status: Nao Vende
+Dia #332 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+Dia #333 / Total: 9.82999999995809
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Venda
 Dia #334 / Total: 485924.57
+=======
+Empresa: weg / Status: Nao Vende
+Dia #334 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: copel / Status: Nao Compra
 Empresa: natura / Status: Nao Vende
+<<<<<<< HEAD
 Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Venda
 Dia #335 / Total: 485924.57
+=======
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Vende
+Dia #335 / Total: 9.82999999995809
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
 Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
+Empresa: copel / Status: Nao Vende
 Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
+Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Compra
+<<<<<<< HEAD
 Empresa: weg / Status: Venda
 Dia #336 / Total: 485924.57
 
@@ -2974,3 +4518,20 @@ Historico geral:
 	Empresa: vale / Inicial: 30000.0 / Retornado: 73499.68000000001 (145.0%)
 	Empresa: weg / Inicial: 470000.0 / Retornado: 463878.48000000004 (-1.3%)
 Total de Vendas = 95 / Total de Compras = 10 / Total = 1046257.3999999999
+=======
+Empresa: weg / Status: Nao Vende
+Dia #336 / Total: 9.82999999995809
+
+Historico geral: 
+	Empresa: ambev / Inicial: 500000.0 / Retornado: 484216.27999999985 (-3.16%)
+	Empresa: americanas / Inicial: 0.0 / Retornado: 0.0 (0.0%)
+	Empresa: bancodobrasil / Inicial: 0.0 / Retornado: 0.0 (0.0%)
+	Empresa: cielo / Inicial: 0.0 / Retornado: 0.0 (0.0%)
+	Empresa: copel / Inicial: 0.0 / Retornado: 0.0 (0.0%)
+	Empresa: natura / Inicial: 0.0 / Retornado: 0.0 (0.0%)
+	Empresa: renner / Inicial: 0.0 / Retornado: 0.0 (0.0%)
+	Empresa: sanepar / Inicial: 0.0 / Retornado: 0.0 (0.0%)
+	Empresa: vale / Inicial: 0.0 / Retornado: 0.0 (0.0%)
+	Empresa: weg / Inicial: 500000.0 / Retornado: 524880.05 (4.98%)
+Total de Vendas = 49 / Total de Compras = 53 / Total = 1009096.3299999998
+>>>>>>> 13dc7e8a70514030f38b9aedc7a94531641742db
