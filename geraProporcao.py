@@ -1,11 +1,11 @@
 import os, sys, random, operator # bibliotecas que podem vir a ser uteis
 from math import ceil
 from getInputs import get2014and2015
+import matplotlib.pyplot as plt
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel", "natura", "renner", "sanepar", "vale", "weg"]
-tamPopulacao = 10
-numFilhos = 10
-
+tamPopulacao = 100
+numFilhos = 100
 
 def somaVar():
 	dicionario = get2014and2015()
@@ -122,18 +122,23 @@ def fnFitness(individuo, dicionario):
 	fitness = 0
 	for empresa in empresas: #media pondereda, peso 1, 2 e 3 + volume
 		'''
+		fitness += individuo[i] * ((dicionario[empresa][0]*0.15)+
+									(dicionario[empresa][1]*0.2)+
+									(dicionario[empresa][2]*0.65))
+		
+		
 		fitness +=( individuo[i] * ((dicionario[empresa][0]+dicionario[empresa][3])*0.16) +  
 		individuo[i] * ((dicionario[empresa][1]+dicionario[empresa][4]) * 0.34) + 
 		individuo[i] * ((dicionario[empresa][2]+ dicionario[empresa][5])*0.5))
 		'''
 		fitness +=( individuo[i] * (
-									((dicionario[empresa][0]*0.16)+
-									(dicionario[empresa][1]*0.34)+
-									(dicionario[empresa][2]*0.5) * 0.95)
+									((dicionario[empresa][0]*0.1)+
+									(dicionario[empresa][1]*0.3)+
+									(dicionario[empresa][2]*0.6) * 0.5)
 									+
-									((dicionario[empresa][3]*0.16) + 
-									(dicionario[empresa][4]*0.34) + 
-									(dicionario[empresa][5]*0.5)*0.05)
+									((dicionario[empresa][3]*0.1) + 
+									(dicionario[empresa][4]*0.3) + 
+									(dicionario[empresa][5]*0.6)*0.5)
 									))
 		
 		
@@ -172,19 +177,23 @@ def gerarPopulacaoInicial(populacao):
 	global tamPopulacao
 	# for para gerar todos os individuos da populacao
 	for i in range(tamPopulacao):
-		percentagem = 100
+		percentagem = [30, 30, 40]
 		aux = []
 		# for para os cromossomos do individuo
-		for j in range(0,4):
-			valor = random.randint(0, int(percentagem/3))
+		for j in range(0,3):
+			valor = random.randint(0, int(percentagem[0]))
 			aux.append(valor)
-			percentagem -= valor
-		for j in range(0,5):
-			valor = random.randint(0,percentagem)
+			percentagem[0] -= valor
+		for j in range(0,3):
+			valor = random.randint(0,percentagem[1])
 			aux.append(valor)
-			percentagem -= valor
-		if percentagem > 0:
-			aux.append(percentagem) # faz isso para dar ao ultimo, o resto da percentagem
+			percentagem[1] -= valor
+		for j in range(0,3):
+			valor = random.randint(0,percentagem[2])
+			aux.append(valor)
+			percentagem[2] -= valor
+		if sum(percentagem) > 0:
+			aux.append(sum(percentagem)) # faz isso para dar ao ultimo, o resto da percentagem
 		else:
 			aux.append(0)
 		#aux = random.shuffle(aux) # embaralha os valores
@@ -197,11 +206,12 @@ def buscaGenetico():
 	N = numFilhos # Quantidade de filhos gerados a cada iteracao.
 	criterioParada = True
 	criterioParada = 0
+	melhorGlobal = []
 
 	dicVar = somaVar() # Soma as variâncias
-
+	print('Iniciando Busca...')
 	gerarPopulacaoInicial(populacao)
-	while criterioParada < 100:
+	while criterioParada < 500:
 		novaPopulacao = []
 		#print( "Populcao: ", populacao, " / tamanho = ", len(populacao))
 		for i in range(0, N):
@@ -215,9 +225,19 @@ def buscaGenetico():
 
 		populacao = atualizar(populacao, novaPopulacao, dicVar)
 
-		criterioParada +=1
-		#melhor =  melhorIndividuo(populacao, dicVar)
+		
+		melhorLocal =  melhorIndividuo(populacao, dicVar)
+		if not melhorGlobal:
+			melhorGlobal = list(melhorLocal)
 
+		if fnFitness(melhorGlobal, dicVar) < fnFitness(melhorLocal, dicVar):
+			melhorGlobal = list(melhorLocal)
+			criterioParada =0
+		else:
+			criterioParada +=1
+		plt.plot([criterioParada], [fnFitness(melhorLocal,dicVar)], 'r^')
+
+	plt.show()
 	return melhorIndividuo(populacao, dicVar)
 
 def buscaProporcao(valor):
