@@ -131,14 +131,14 @@ def fnFitness(individuo, dicionario):
 		individuo[i] * ((dicionario[empresa][1]+dicionario[empresa][4]) * 0.34) + 
 		individuo[i] * ((dicionario[empresa][2]+ dicionario[empresa][5])*0.5))
 		'''
-		fitness +=( individuo[i] * (
-									((dicionario[empresa][0]*0.1)+
-									(dicionario[empresa][1]*0.3)+
-									(dicionario[empresa][2]*0.6) * 0.5)
+		fitness +=( (individuo[i]/100) * (
+									((dicionario[empresa][0]*0.16)+
+									(dicionario[empresa][1]*0.34)+
+									(dicionario[empresa][2]*0.5) * 0.95)
 									+
 									((dicionario[empresa][3]*0.1) + 
 									(dicionario[empresa][4]*0.3) + 
-									(dicionario[empresa][5]*0.6)*0.5)
+									(dicionario[empresa][5]*0.6)*0.05)
 									))
 		
 		
@@ -237,7 +237,7 @@ def buscaGenetico():
 			criterioParada +=1
 		plt.plot([criterioParada], [fnFitness(melhorLocal,dicVar)], 'r^')
 
-	plt.show()
+	#plt.show()
 	return melhorIndividuo(populacao, dicVar)
 
 def buscaProporcao(valor):

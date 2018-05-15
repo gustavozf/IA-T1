@@ -3,9 +3,24 @@ import matplotlib.pyplot as plt
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel",  "natura", "renner", "sanepar", "vale", "weg"]
 #curto, medio, longo = 21, 42, 100
-#curto, medio, longo = 8, 42, 89
-curto, medio, longo = 4, 9, 18
+curto, medio, longo = 8, 42, 89
+#curto, medio, longo = 4, 9, 18
 
+def printHistorico(saida, copia, disponivel, vendeu, comprou):
+    stringAux = "Historico geral: \n"
+    global empresas
+    for empresa in empresas:
+        if copia[empresa] > 0:
+            x = round(((disponivel[empresa]-copia[empresa])/copia[empresa])*100,2)
+        else:
+            x = 0.0
+        stringAux += "\tEmpresa: {0} / Inicial: {1} / Retornado: {2} ({3}%)\n".format(empresa, copia[empresa], disponivel[empresa], x)
+        #saida.write("\tEmpresa: {0} / Inicial: {1} / Retornado: {2} ({3}%)\n".format(empresa, copia[empresa], disponivel[empresa], x))
+    stringAux +="Total de Vendas = " + str(vendeu) + " / Total de Compras = " + str(comprou)+ " / Total = " +str(sum(disponivel.values())) + "\n"
+    #saida.write("Total de Vendas = " + str(vendeu) + " / Total de Compras = " + str(comprou)+ " / Total = " +str(sum(disponivel.values())) + "\n")
+    print(stringAux)
+    saida.write(stringAux)
+    saida.close()
 
 def vendeUltimoDia(cont, values2016, disponivel, cotacoes):
     for empresa in empresas:
@@ -54,6 +69,7 @@ def cruzamentoMediaMovel(disponivel): # Mari - Media ponderada
     historico = {}
     global curto
     global longo
+    copia = dict(disponivel)
     saida = open('saida.txt', 'w')
     comprou = 0
     vendeu = 0
@@ -85,19 +101,19 @@ def cruzamentoMediaMovel(disponivel): # Mari - Media ponderada
         saida.write("Dia #" + str(cont)+ " / Total: " + str(sum(disponivel.values())) + "\n\n")
         cont+=1
 
-    saida.write("FIM! Total de Vendas = " + str(vendeu) + " / Total de Compras = " + str(comprou)+ " / Total = " +str(sum(disponivel.values())) + "\n")    
     vendeUltimoDia(cont, values2016, disponivel, cotacoes)
-    saida.write("\nVendendo tudo ao ultimo dia do ano! Total = " +  str(sum(disponivel.values())) +"\n")
-    saida.close()
-
+    printHistorico(saida, copia, disponivel, vendeu, comprou)
+    print("Fim de execucao!\n")
+    
     return sum(disponivel.values())
 
 def mediaMovelSimples(disponivel):
     global empresas
-    cont = 4 #
+    cont = longo #
     passo = cont -1
     dias = 248 + cont #dias de 2016, tirando o 1º
     saida = open('saida.txt', 'w')
+    copia = dict(disponivel)
     historico = {}
 
     values2016 = get2016(cont)
@@ -127,10 +143,8 @@ def mediaMovelSimples(disponivel):
         saida.write("Dia #" + str(cont)+ " / Total: " + str(sum(disponivel.values())) + "\n\n")
         cont += 1
 
-    saida.write("FIM! Total de Vendas = " + str(vendeu) + " / Total de Compras = " + str(comprou)+ " / Total = " +str(sum(disponivel.values())) + "\n")    
     vendeUltimoDia(cont, values2016, disponivel, cotacoes)
-    saida.write("\nVendendo tudo ao ultimo dia do ano! Total = " +  str(sum(disponivel.values())) +"\n")
-    saida.close()
+    printHistorico(saida, copia, disponivel, vendeu, comprou)
 
     return sum(disponivel.values())
 
@@ -182,9 +196,7 @@ def mediaMovelExponencial(disponivel):
         saida.write("Dia #" + str(cont)+ " / Total: " + str(sum(disponivel.values())) + "\n\n")
         cont += 1
 
-    saida.write("FIM! Total de Vendas = " + str(vendeu) + " / Total de Compras = " + str(comprou)+ " / Total = " +str(sum(disponivel.values())) + "\n")    
     vendeUltimoDia(cont, values2016, disponivel, cotacoes)
-    saida.write("\nVendendo tudo ao ultimo dia do ano! Total = " +  str(sum(disponivel.values())) +"\n")
-    saida.close()
+    printHistorico(saida, copia, disponivel, vendeu, comprou)
 
     return sum(disponivel.values())
