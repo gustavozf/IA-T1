@@ -8,7 +8,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #90 / Total: 87.56000000000313
+Dia #90 / Total: 86.0099999999893
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -20,7 +20,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #91 / Total: 87.56000000000313
+Dia #91 / Total: 86.0099999999893
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -32,7 +32,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #92 / Total: 87.56000000000313
+Dia #92 / Total: 86.0099999999893
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -44,7 +44,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #93 / Total: 87.56000000000313
+Dia #93 / Total: 86.0099999999893
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -56,7 +56,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #94 / Total: 87.56000000000313
+Dia #94 / Total: 86.0099999999893
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -68,7 +68,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #95 / Total: 87.56000000000313
+Dia #95 / Total: 86.0099999999893
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -80,7 +80,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #96 / Total: 87.56000000000313
+Dia #96 / Total: 86.0099999999893
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -92,7 +92,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #97 / Total: 87.56000000000313
+Dia #97 / Total: 86.0099999999893
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -104,7 +104,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #98 / Total: 87.56000000000313
+Dia #98 / Total: 86.0099999999893
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
@@ -116,7 +116,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #99 / Total: 87.56000000000313
+Dia #99 / Total: 86.0099999999893
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
@@ -128,7 +128,19 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #100 / Total: 87.56000000000313
+Dia #100 / Total: 86.0099999999893
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Compra
+Empresa: copel / Status: Nao Vende
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Vende
+Empresa: sanepar / Status: Nao Vende
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Nao Compra
+Dia #101 / Total: 68.3099999999893
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
@@ -140,7 +152,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #101 / Total: 87.56000000000313
+Dia #102 / Total: 68.3099999999893
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
@@ -152,19 +164,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #102 / Total: 87.56000000000313
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Compra
-Empresa: copel / Status: Nao Vende
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Vende
-Empresa: sanepar / Status: Nao Vende
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #103 / Total: 87.56000000000313
+Dia #103 / Total: 68.3099999999893
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Compra
@@ -176,7 +176,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #104 / Total: 87.56000000000313
+Dia #104 / Total: 68.3099999999893
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -188,7 +188,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #105 / Total: 87.56000000000313
+Dia #105 / Total: 68.3099999999893
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -200,7 +200,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #106 / Total: 87.56000000000313
+Dia #106 / Total: 68.3099999999893
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -212,7 +212,7 @@ Empresa: renner / Status: Venda
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #107 / Total: 51356.16
+Dia #107 / Total: 10322.029999999988
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -224,7 +224,7 @@ Empresa: renner / Status: Venda
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #108 / Total: 51356.16
+Dia #108 / Total: 10322.029999999988
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -236,7 +236,7 @@ Empresa: renner / Status: Venda
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #109 / Total: 51356.16
+Dia #109 / Total: 10322.029999999988
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -248,7 +248,7 @@ Empresa: renner / Status: Venda
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #110 / Total: 51356.16
+Dia #110 / Total: 10322.029999999988
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -260,7 +260,7 @@ Empresa: renner / Status: Venda
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #111 / Total: 61434.96
+Dia #111 / Total: 20400.829999999987
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -272,7 +272,7 @@ Empresa: renner / Status: Compra
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #112 / Total: 10178.159999999998
+Dia #112 / Total: 10152.829999999987
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -284,7 +284,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #113 / Total: 10178.159999999998
+Dia #113 / Total: 10152.829999999987
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -296,7 +296,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #114 / Total: 10178.159999999998
+Dia #114 / Total: 10152.829999999987
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -308,7 +308,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Venda
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #115 / Total: 10178.159999999998
+Dia #115 / Total: 10152.829999999987
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -320,7 +320,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Venda
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #116 / Total: 10178.159999999998
+Dia #116 / Total: 10152.829999999987
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -332,7 +332,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Venda
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #117 / Total: 10178.159999999998
+Dia #117 / Total: 10152.829999999987
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -344,7 +344,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Venda
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #118 / Total: 10178.159999999998
+Dia #118 / Total: 10152.829999999987
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -356,7 +356,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #119 / Total: 10178.159999999998
+Dia #119 / Total: 10152.829999999987
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -368,7 +368,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #120 / Total: 10178.159999999998
+Dia #120 / Total: 10152.829999999987
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -380,7 +380,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Venda
 Empresa: vale / Status: Venda
 Empresa: weg / Status: Nao Compra
-Dia #121 / Total: 230575.37999999998
+Dia #121 / Total: 41636.26999999999
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -392,7 +392,19 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Vende
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #122 / Total: 230575.37999999998
+Dia #122 / Total: 41636.26999999999
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Compra
+Empresa: bancodobrasil / Status: Nao Vende
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Venda
+Empresa: natura / Status: Nao Compra
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Vende
+Empresa: weg / Status: Compra
+Dia #123 / Total: 41623.19999999999
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -404,19 +416,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Vende
 Empresa: weg / Status: Nao Compra
-Dia #123 / Total: 230575.37999999998
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Compra
-Empresa: bancodobrasil / Status: Nao Vende
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Compra
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Vende
-Empresa: weg / Status: Nao Compra
-Dia #124 / Total: 230575.37999999998
+Dia #124 / Total: 41623.19999999999
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -428,7 +428,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Compra
 Empresa: weg / Status: Nao Compra
-Dia #125 / Total: 10179.38
+Dia #125 / Total: 10141.19999999999
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -440,7 +440,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #126 / Total: 10179.38
+Dia #126 / Total: 10141.19999999999
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -452,7 +452,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #127 / Total: 60270.74
+Dia #127 / Total: 60232.55999999999
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -464,7 +464,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #128 / Total: 60270.74
+Dia #128 / Total: 60232.55999999999
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -476,7 +476,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #129 / Total: 101.60000000000582
+Dia #129 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -488,7 +488,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #130 / Total: 101.60000000000582
+Dia #130 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -500,7 +500,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #131 / Total: 101.60000000000582
+Dia #131 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -512,7 +512,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #132 / Total: 101.60000000000582
+Dia #132 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -524,7 +524,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #133 / Total: 101.60000000000582
+Dia #133 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -536,7 +536,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #134 / Total: 101.60000000000582
+Dia #134 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -548,7 +548,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #135 / Total: 101.60000000000582
+Dia #135 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -560,7 +560,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #136 / Total: 101.60000000000582
+Dia #136 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -572,7 +572,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #137 / Total: 101.60000000000582
+Dia #137 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -584,7 +584,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #138 / Total: 101.60000000000582
+Dia #138 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -596,7 +596,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #139 / Total: 101.60000000000582
+Dia #139 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -608,7 +608,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #140 / Total: 101.60000000000582
+Dia #140 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -620,7 +620,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #141 / Total: 101.60000000000582
+Dia #141 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -632,7 +632,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #142 / Total: 101.60000000000582
+Dia #142 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -644,7 +644,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #143 / Total: 101.60000000000582
+Dia #143 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -656,7 +656,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #144 / Total: 101.60000000000582
+Dia #144 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -668,7 +668,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #145 / Total: 101.60000000000582
+Dia #145 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -680,7 +680,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #146 / Total: 101.60000000000582
+Dia #146 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -692,7 +692,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #147 / Total: 101.60000000000582
+Dia #147 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -704,7 +704,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #148 / Total: 101.60000000000582
+Dia #148 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -716,7 +716,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #149 / Total: 101.60000000000582
+Dia #149 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -728,7 +728,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #150 / Total: 101.60000000000582
+Dia #150 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -740,7 +740,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #151 / Total: 101.60000000000582
+Dia #151 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -752,7 +752,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #152 / Total: 101.60000000000582
+Dia #152 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -764,7 +764,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #153 / Total: 101.60000000000582
+Dia #153 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -776,7 +776,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #154 / Total: 101.60000000000582
+Dia #154 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -788,7 +788,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #155 / Total: 101.60000000000582
+Dia #155 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -800,7 +800,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #156 / Total: 101.60000000000582
+Dia #156 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -812,7 +812,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #157 / Total: 101.60000000000582
+Dia #157 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -824,7 +824,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #158 / Total: 101.60000000000582
+Dia #158 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -836,7 +836,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #159 / Total: 101.60000000000582
+Dia #159 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -848,7 +848,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #160 / Total: 101.60000000000582
+Dia #160 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -860,7 +860,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #161 / Total: 101.60000000000582
+Dia #161 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -872,7 +872,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #162 / Total: 101.60000000000582
+Dia #162 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -884,7 +884,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #163 / Total: 101.60000000000582
+Dia #163 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -896,7 +896,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #164 / Total: 101.60000000000582
+Dia #164 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -908,7 +908,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #165 / Total: 101.60000000000582
+Dia #165 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -920,7 +920,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #166 / Total: 101.60000000000582
+Dia #166 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -932,7 +932,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #167 / Total: 101.60000000000582
+Dia #167 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -944,7 +944,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #168 / Total: 101.60000000000582
+Dia #168 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -956,7 +956,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #169 / Total: 101.60000000000582
+Dia #169 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -968,7 +968,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #170 / Total: 101.60000000000582
+Dia #170 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -980,7 +980,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #171 / Total: 101.60000000000582
+Dia #171 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -992,7 +992,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #172 / Total: 101.60000000000582
+Dia #172 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1004,7 +1004,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #173 / Total: 101.60000000000582
+Dia #173 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1016,7 +1016,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #174 / Total: 101.60000000000582
+Dia #174 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1028,7 +1028,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #175 / Total: 101.60000000000582
+Dia #175 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1040,7 +1040,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #176 / Total: 101.60000000000582
+Dia #176 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1052,7 +1052,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #177 / Total: 101.60000000000582
+Dia #177 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1064,7 +1064,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #178 / Total: 101.60000000000582
+Dia #178 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1076,7 +1076,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #179 / Total: 101.60000000000582
+Dia #179 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1088,7 +1088,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #180 / Total: 101.60000000000582
+Dia #180 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1100,7 +1100,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #181 / Total: 101.60000000000582
+Dia #181 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1112,7 +1112,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #182 / Total: 101.60000000000582
+Dia #182 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1124,7 +1124,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #183 / Total: 101.60000000000582
+Dia #183 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1136,7 +1136,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #184 / Total: 101.60000000000582
+Dia #184 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1148,7 +1148,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #185 / Total: 101.60000000000582
+Dia #185 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1160,7 +1160,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #186 / Total: 101.60000000000582
+Dia #186 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1172,7 +1172,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #187 / Total: 101.60000000000582
+Dia #187 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1184,7 +1184,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #188 / Total: 101.60000000000582
+Dia #188 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1196,7 +1196,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #189 / Total: 101.60000000000582
+Dia #189 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1208,7 +1208,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #190 / Total: 101.60000000000582
+Dia #190 / Total: 63.41999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1220,7 +1220,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #191 / Total: 10193.000000000005
+Dia #191 / Total: 10154.819999999996
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1232,7 +1232,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #192 / Total: 10193.000000000005
+Dia #192 / Total: 10154.819999999996
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1244,7 +1244,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #193 / Total: 10193.000000000005
+Dia #193 / Total: 10154.819999999996
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1256,7 +1256,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #194 / Total: 10193.000000000005
+Dia #194 / Total: 10154.819999999996
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1268,7 +1268,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #195 / Total: 10193.000000000005
+Dia #195 / Total: 10154.819999999996
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1280,7 +1280,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #196 / Total: 94.10000000000582
+Dia #196 / Total: 55.91999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1292,7 +1292,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #197 / Total: 94.10000000000582
+Dia #197 / Total: 55.91999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1304,7 +1304,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #198 / Total: 94.10000000000582
+Dia #198 / Total: 55.91999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1316,7 +1316,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #199 / Total: 94.10000000000582
+Dia #199 / Total: 55.91999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1328,7 +1328,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #200 / Total: 94.10000000000582
+Dia #200 / Total: 55.91999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1340,7 +1340,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #201 / Total: 94.10000000000582
+Dia #201 / Total: 55.91999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1352,7 +1352,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #202 / Total: 94.10000000000582
+Dia #202 / Total: 55.91999999999687
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1364,7 +1364,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #203 / Total: 10439.960000000006
+Dia #203 / Total: 10401.779999999997
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1376,7 +1376,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #204 / Total: 10439.960000000006
+Dia #204 / Total: 10401.779999999997
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1388,7 +1388,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #205 / Total: 10439.960000000006
+Dia #205 / Total: 10401.779999999997
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1400,7 +1400,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #206 / Total: 10439.960000000006
+Dia #206 / Total: 10401.779999999997
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1412,7 +1412,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #207 / Total: 118.22000000000662
+Dia #207 / Total: 80.03999999999766
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1424,7 +1424,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #208 / Total: 118.22000000000662
+Dia #208 / Total: 80.03999999999766
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -1436,7 +1436,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #209 / Total: 118.22000000000662
+Dia #209 / Total: 80.03999999999766
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1448,7 +1448,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #210 / Total: 118.22000000000662
+Dia #210 / Total: 80.03999999999766
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1460,7 +1460,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #211 / Total: 51933.100000000006
+Dia #211 / Total: 51894.92
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1472,7 +1472,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #212 / Total: 51933.100000000006
+Dia #212 / Total: 51894.92
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1484,7 +1484,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #213 / Total: 51933.100000000006
+Dia #213 / Total: 51894.92
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1496,7 +1496,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #214 / Total: 51933.100000000006
+Dia #214 / Total: 51894.92
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1508,7 +1508,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #215 / Total: 51933.100000000006
+Dia #215 / Total: 51894.92
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1520,7 +1520,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #216 / Total: 51933.100000000006
+Dia #216 / Total: 51894.92
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1532,7 +1532,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #217 / Total: 51933.100000000006
+Dia #217 / Total: 51894.92
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1544,7 +1544,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #218 / Total: 125.600000000004
+Dia #218 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1556,7 +1556,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #219 / Total: 125.600000000004
+Dia #219 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1568,7 +1568,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #220 / Total: 125.600000000004
+Dia #220 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1580,7 +1580,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #221 / Total: 125.600000000004
+Dia #221 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1592,7 +1592,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #222 / Total: 125.600000000004
+Dia #222 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1604,7 +1604,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #223 / Total: 125.600000000004
+Dia #223 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1616,7 +1616,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #224 / Total: 125.600000000004
+Dia #224 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1628,7 +1628,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #225 / Total: 125.600000000004
+Dia #225 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1640,7 +1640,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #226 / Total: 125.600000000004
+Dia #226 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1652,7 +1652,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #227 / Total: 125.600000000004
+Dia #227 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1664,7 +1664,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #228 / Total: 125.600000000004
+Dia #228 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1676,7 +1676,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #229 / Total: 125.600000000004
+Dia #229 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1688,7 +1688,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #230 / Total: 125.600000000004
+Dia #230 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1700,7 +1700,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #231 / Total: 125.600000000004
+Dia #231 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1712,7 +1712,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #232 / Total: 125.600000000004
+Dia #232 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1724,7 +1724,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #233 / Total: 125.600000000004
+Dia #233 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1736,7 +1736,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #234 / Total: 125.600000000004
+Dia #234 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1748,7 +1748,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #235 / Total: 125.600000000004
+Dia #235 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1760,7 +1760,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #236 / Total: 125.600000000004
+Dia #236 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1772,7 +1772,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #237 / Total: 125.600000000004
+Dia #237 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1784,7 +1784,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #238 / Total: 125.600000000004
+Dia #238 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1796,7 +1796,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #239 / Total: 125.600000000004
+Dia #239 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1808,7 +1808,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #240 / Total: 125.600000000004
+Dia #240 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1820,7 +1820,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #241 / Total: 125.600000000004
+Dia #241 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1832,7 +1832,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #242 / Total: 125.600000000004
+Dia #242 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1844,7 +1844,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #243 / Total: 125.600000000004
+Dia #243 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1856,7 +1856,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #244 / Total: 125.600000000004
+Dia #244 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1868,7 +1868,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #245 / Total: 125.600000000004
+Dia #245 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1880,7 +1880,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #246 / Total: 125.600000000004
+Dia #246 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1892,7 +1892,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #247 / Total: 125.600000000004
+Dia #247 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1904,7 +1904,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #248 / Total: 125.600000000004
+Dia #248 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1916,7 +1916,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #249 / Total: 125.600000000004
+Dia #249 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1928,7 +1928,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #250 / Total: 125.600000000004
+Dia #250 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1940,7 +1940,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #251 / Total: 125.600000000004
+Dia #251 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1952,7 +1952,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #252 / Total: 125.600000000004
+Dia #252 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1964,7 +1964,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #253 / Total: 125.600000000004
+Dia #253 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1976,7 +1976,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #254 / Total: 125.600000000004
+Dia #254 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -1988,7 +1988,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #255 / Total: 125.600000000004
+Dia #255 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2000,7 +2000,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #256 / Total: 125.600000000004
+Dia #256 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2012,7 +2012,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #257 / Total: 125.600000000004
+Dia #257 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2024,7 +2024,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #258 / Total: 125.600000000004
+Dia #258 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2036,7 +2036,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #259 / Total: 125.600000000004
+Dia #259 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2048,7 +2048,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #260 / Total: 125.600000000004
+Dia #260 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2060,7 +2060,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #261 / Total: 125.600000000004
+Dia #261 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2072,7 +2072,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #262 / Total: 125.600000000004
+Dia #262 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2084,7 +2084,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #263 / Total: 125.600000000004
+Dia #263 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2096,7 +2096,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #264 / Total: 125.600000000004
+Dia #264 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2108,7 +2108,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #265 / Total: 125.600000000004
+Dia #265 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2120,7 +2120,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #266 / Total: 125.600000000004
+Dia #266 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2132,7 +2132,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #267 / Total: 125.600000000004
+Dia #267 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2144,7 +2144,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #268 / Total: 125.600000000004
+Dia #268 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2156,7 +2156,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #269 / Total: 125.600000000004
+Dia #269 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2168,7 +2168,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #270 / Total: 125.600000000004
+Dia #270 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2180,7 +2180,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #271 / Total: 125.600000000004
+Dia #271 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2192,7 +2192,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #272 / Total: 125.600000000004
+Dia #272 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2204,7 +2204,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #273 / Total: 125.600000000004
+Dia #273 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2216,7 +2216,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #274 / Total: 125.600000000004
+Dia #274 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2228,7 +2228,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #275 / Total: 125.600000000004
+Dia #275 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2240,7 +2240,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #276 / Total: 125.600000000004
+Dia #276 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2252,7 +2252,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #277 / Total: 125.600000000004
+Dia #277 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2264,7 +2264,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #278 / Total: 125.600000000004
+Dia #278 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2276,7 +2276,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #279 / Total: 125.600000000004
+Dia #279 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2288,7 +2288,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #280 / Total: 125.600000000004
+Dia #280 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2300,7 +2300,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #281 / Total: 125.600000000004
+Dia #281 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2312,7 +2312,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #282 / Total: 125.600000000004
+Dia #282 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2324,7 +2324,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #283 / Total: 125.600000000004
+Dia #283 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2336,7 +2336,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #284 / Total: 125.600000000004
+Dia #284 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2348,7 +2348,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #285 / Total: 125.600000000004
+Dia #285 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2360,7 +2360,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #286 / Total: 125.600000000004
+Dia #286 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2372,7 +2372,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #287 / Total: 125.600000000004
+Dia #287 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2384,7 +2384,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #288 / Total: 125.600000000004
+Dia #288 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2396,7 +2396,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #289 / Total: 125.600000000004
+Dia #289 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2408,7 +2408,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #290 / Total: 125.600000000004
+Dia #290 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2420,7 +2420,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #291 / Total: 125.600000000004
+Dia #291 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2432,7 +2432,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #292 / Total: 125.600000000004
+Dia #292 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2444,7 +2444,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #293 / Total: 125.600000000004
+Dia #293 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2456,7 +2456,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #294 / Total: 125.600000000004
+Dia #294 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2468,7 +2468,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #295 / Total: 125.600000000004
+Dia #295 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2480,7 +2480,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #296 / Total: 125.600000000004
+Dia #296 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2492,7 +2492,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #297 / Total: 125.600000000004
+Dia #297 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2504,7 +2504,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #298 / Total: 125.600000000004
+Dia #298 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2516,7 +2516,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #299 / Total: 125.600000000004
+Dia #299 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2528,7 +2528,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #300 / Total: 125.600000000004
+Dia #300 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2540,7 +2540,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #301 / Total: 125.600000000004
+Dia #301 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2552,7 +2552,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #302 / Total: 125.600000000004
+Dia #302 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2564,7 +2564,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #303 / Total: 125.600000000004
+Dia #303 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2576,7 +2576,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #304 / Total: 125.600000000004
+Dia #304 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2588,7 +2588,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #305 / Total: 125.600000000004
+Dia #305 / Total: 87.41999999999504
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2600,7 +2600,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #306 / Total: 10527.540000000005
+Dia #306 / Total: 10489.359999999995
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2612,7 +2612,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #307 / Total: 10527.540000000005
+Dia #307 / Total: 10489.359999999995
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2624,7 +2624,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #308 / Total: 10527.540000000005
+Dia #308 / Total: 10489.359999999995
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Compra
@@ -2636,7 +2636,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #309 / Total: 10527.540000000005
+Dia #309 / Total: 10489.359999999995
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -2648,19 +2648,7 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #310 / Total: 22073.520000000004
-
-Empresa: ambev / Status: Nao Compra
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Venda
-Empresa: renner / Status: Venda
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Compra
-Dia #311 / Total: 90568.47000000002
+Dia #310 / Total: 22035.339999999997
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -2672,7 +2660,7 @@ Empresa: renner / Status: Venda
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #312 / Total: 90568.47000000002
+Dia #311 / Total: 35729.84
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -2684,7 +2672,19 @@ Empresa: renner / Status: Venda
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #313 / Total: 90568.47000000002
+Dia #312 / Total: 35729.84
+
+Empresa: ambev / Status: Nao Compra
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Venda
+Empresa: natura / Status: Venda
+Empresa: renner / Status: Venda
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Nao Compra
+Dia #313 / Total: 35729.84
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -2696,7 +2696,7 @@ Empresa: renner / Status: Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #314 / Total: 22059.150000000016
+Dia #314 / Total: 22046.719999999998
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -2708,7 +2708,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #315 / Total: 22059.150000000016
+Dia #315 / Total: 22046.719999999998
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -2720,7 +2720,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #316 / Total: 22059.150000000016
+Dia #316 / Total: 22046.719999999998
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -2732,7 +2732,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #317 / Total: 22059.150000000016
+Dia #317 / Total: 22046.719999999998
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -2744,7 +2744,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #318 / Total: 22059.150000000016
+Dia #318 / Total: 22046.719999999998
 
 Empresa: ambev / Status: Nao Compra
 Empresa: americanas / Status: Nao Vende
@@ -2756,7 +2756,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #319 / Total: 22059.150000000016
+Dia #319 / Total: 22046.719999999998
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
@@ -2768,7 +2768,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #320 / Total: 22059.150000000016
+Dia #320 / Total: 22046.719999999998
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
@@ -2780,7 +2780,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #321 / Total: 22059.150000000016
+Dia #321 / Total: 22046.719999999998
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
@@ -2792,7 +2792,7 @@ Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Nao Compra
-Dia #322 / Total: 22059.150000000016
+Dia #322 / Total: 22046.719999999998
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
@@ -2803,8 +2803,8 @@ Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #323 / Total: 22059.150000000016
+Empresa: weg / Status: Venda
+Dia #323 / Total: 485924.57
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
@@ -2815,8 +2815,8 @@ Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #324 / Total: 22059.150000000016
+Empresa: weg / Status: Venda
+Dia #324 / Total: 485924.57
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
@@ -2827,8 +2827,8 @@ Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #325 / Total: 22059.150000000016
+Empresa: weg / Status: Venda
+Dia #325 / Total: 485924.57
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
@@ -2839,116 +2839,8 @@ Empresa: natura / Status: Nao Vende
 Empresa: renner / Status: Nao Vende
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #326 / Total: 22059.150000000016
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #327 / Total: 22059.150000000016
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #328 / Total: 22059.150000000016
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #329 / Total: 22059.150000000016
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #330 / Total: 22059.150000000016
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #331 / Total: 22059.150000000016
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #332 / Total: 22059.150000000016
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #333 / Total: 22059.150000000016
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #334 / Total: 22059.150000000016
-
-Empresa: ambev / Status: Nao Vende
-Empresa: americanas / Status: Nao Vende
-Empresa: bancodobrasil / Status: Nao Compra
-Empresa: cielo / Status: Nao Vende
-Empresa: copel / Status: Venda
-Empresa: natura / Status: Nao Vende
-Empresa: renner / Status: Nao Compra
-Empresa: sanepar / Status: Nao Compra
-Empresa: vale / Status: Nao Compra
-Empresa: weg / Status: Nao Vende
-Dia #335 / Total: 22059.150000000016
+Empresa: weg / Status: Venda
+Dia #326 / Total: 485924.57
 
 Empresa: ambev / Status: Nao Vende
 Empresa: americanas / Status: Nao Vende
@@ -2960,17 +2852,125 @@ Empresa: renner / Status: Nao Compra
 Empresa: sanepar / Status: Nao Compra
 Empresa: vale / Status: Nao Compra
 Empresa: weg / Status: Venda
-Dia #336 / Total: 284598.1500000001
+Dia #327 / Total: 485924.57
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Venda
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Venda
+Dia #328 / Total: 485924.57
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Venda
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Venda
+Dia #329 / Total: 485924.57
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Venda
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Venda
+Dia #330 / Total: 485924.57
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Venda
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Venda
+Dia #331 / Total: 485924.57
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Venda
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Venda
+Dia #332 / Total: 485924.57
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Venda
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Venda
+Dia #333 / Total: 485924.57
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Venda
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Venda
+Dia #334 / Total: 485924.57
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Venda
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Venda
+Dia #335 / Total: 485924.57
+
+Empresa: ambev / Status: Nao Vende
+Empresa: americanas / Status: Nao Vende
+Empresa: bancodobrasil / Status: Nao Compra
+Empresa: cielo / Status: Nao Vende
+Empresa: copel / Status: Venda
+Empresa: natura / Status: Nao Vende
+Empresa: renner / Status: Nao Compra
+Empresa: sanepar / Status: Nao Compra
+Empresa: vale / Status: Nao Compra
+Empresa: weg / Status: Venda
+Dia #336 / Total: 485924.57
 
 Historico geral: 
-	Empresa: ambev / Inicial: 220000.0 / Retornado: 206408.19999999995 (-6.18%)
-	Empresa: americanas / Inicial: 70000.0 / Retornado: 63064.17 (-9.91%)
+	Empresa: ambev / Inicial: 400000.0 / Retornado: 375286.3599999999 (-6.18%)
+	Empresa: americanas / Inicial: 10000.0 / Retornado: 9010.069999999998 (-9.9%)
 	Empresa: bancodobrasil / Inicial: 50000.0 / Retornado: 80775.31 (61.55%)
-	Empresa: cielo / Inicial: 120000.0 / Retornado: 99167.7 (-17.36%)
+	Empresa: cielo / Inicial: 10000.0 / Retornado: 8265.44 (-17.35%)
 	Empresa: copel / Inicial: 10000.0 / Retornado: 11565.840000000002 (15.66%)
 	Empresa: natura / Inicial: 10000.0 / Retornado: 10427.240000000002 (4.27%)
-	Empresa: renner / Inicial: 50000.0 / Retornado: 67749.51000000001 (35.5%)
+	Empresa: renner / Inicial: 10000.0 / Retornado: 13548.980000000001 (35.49%)
 	Empresa: sanepar / Inicial: 0.0 / Retornado: 0.0 (0.0%)
-	Empresa: vale / Inicial: 210000.0 / Retornado: 514527.74 (145.01%)
-	Empresa: weg / Inicial: 260000.0 / Retornado: 262540.7 (0.98%)
-Total de Vendas = 82 / Total de Compras = 8 / Total = 1316226.4100000001
+	Empresa: vale / Inicial: 30000.0 / Retornado: 73499.68000000001 (145.0%)
+	Empresa: weg / Inicial: 470000.0 / Retornado: 463878.48000000004 (-1.3%)
+Total de Vendas = 95 / Total de Compras = 10 / Total = 1046257.3999999999
