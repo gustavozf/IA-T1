@@ -1,39 +1,21 @@
 import os, sys, random, operator # bibliotecas que podem vir a ser uteis
 from math import ceil
-import statistics
-from getInputs import get2014and2015
+from getInputs import *
+from fnFitness import *
 import matplotlib.pyplot as plt
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel", "natura", "renner", "sanepar", "vale", "weg"]
 tamPopulacao = 100
 numFilhos = 100
+dicionario2 = [] #= getValues2014and2015()
+fitValues= {}
 
-def somaVar():
-	dicionario = get2014and2015()
-	dicVar = {}
-
-	for empresa in empresas:
-		dicVar[empresa] = []
-		tam = len(dicionario[empresa])
-		for i in range(3):
-			for j in [1,2,4]:
-				dp = [dicionario[empresa][x][i] for x in range(tam//j)]
-				dicVar[empresa].append(statistics.pstdev([i/sum(dp) for i in dp]))
-		'''
-		dicVar[empresa].append(sum([dicionario[empresa][x][0] for x in range(tam)])/ tam ) # variancia dos dois anos
-		dicVar[empresa].append(sum([dicionario[empresa][x][0] for x in range(tam//2)])/ (tam//2)) # variancia de 2015
-		dicVar[empresa].append(sum([dicionario[empresa][x][0] for x in range(tam//4)])/ (tam//4) ) # variancia de metade de 2015
-		dicVar[empresa].append(sum([dicionario[empresa][x][1] for x in range(tam)])/ tam) # valor de dois anos
-		dicVar[empresa].append(sum([dicionario[empresa][x][1] for x in range(tam//2)])/ (tam//2)) # valor de 2015
-		dicVar[empresa].append(sum([dicionario[empresa][x][1] for x in range(tam//4)])/ (tam//4)) # valor de metade de 2015
-		dicVar[empresa].append(sum([dicionario[empresa][x][2] for x in range(tam)])/ tam) # valor de dois anos
-		dicVar[empresa].append(sum([dicionario[empresa][x][2] for x in range(tam//2)])/ (tam//2)) # valor de 2015
-		dicVar[empresa].append(sum([dicionario[empresa][x][2] for x in range(tam//4)])/ (tam//4)) # valor de metade de 2015
-		'''
-	print(dicVar)
-
-	return dict(dicVar)
-
+def localFitness(elem, valor, dicionario):
+	global fitValues
+	nome = str(elem)
+	if nome not in fitValues:
+		fitValues[nome] = fnFitness(elem, valor, dicionario)
+	return fitValues[nome]
 
 def checkSum(lista):
 	soma = 0
@@ -42,26 +24,26 @@ def checkSum(lista):
 
 	return soma
 
-def melhorIndividuo(populacao, dicionario):
+def melhorIndividuo(populacao, valor, dicionario):
 	'''
 	Funcao que retorna o melhor individuo de uma populacao
 	'''
 	fit = []
 	for individuo in populacao:
-		fit.append(fnFitness(individuo, dicionario))
+		fit.append(localFitness(individuo, valor, dicionario))
 	return list(populacao[fit.index(max(fit))])
 	# Organizar um dicionario por valor:
 	# OBS.: reverese = True --> Deixa a lista em formato decrescente
 	# sorted(x.items(), key=operator.itemgetter(1), reverse = True)
 
-def atualizar(populacao, novaPopulacao, dicionario):
+def atualizar(populacao, novaPopulacao, valor, dicionario):
 	'''
 	Funcao que atualiza a populacao antiga com a nova. Elitista.
 	'''
 	fit = []
 	novaPop = []
 	for individuo in populacao:
-		fit.append(fnFitness(individuo, dicionario))
+		fit.append(localFitness(individuo, valor, dicionario))
 	for i in range(int(tamPopulacao*0.85)):
 		posicao = fit.index(max(fit))
 		fit[posicao] = -8000000
@@ -69,7 +51,7 @@ def atualizar(populacao, novaPopulacao, dicionario):
 	#print ("fit =", fit)
 	fit = []
 	for individuo in novaPopulacao:
-		fit.append(fnFitness(individuo, dicionario))
+		fit.append(localFitness(individuo, valor, dicionario))
 	for i in range(int(tamPopulacao*0.15)):
 		posicao = fit.index(max(fit))
 		fit[posicao] = -8000000
@@ -126,54 +108,7 @@ def reproduz(x, y):
 
 	return filho
 
-def fnFitness(individuo, dicionario):
-	'''
-	Funcao que mede a adaptacao de um individuo
-	'''
-	global empresas
-
-	i = 0
-	fitness = 0
-	for empresa in empresas: #media pondereda, peso 1, 2 e 3 + volume
-		'''
-		fitness += individuo[i] * ((dicionario[empresa][0]*0.15)+
-									(dicionario[empresa][1]*0.2)+
-									(dicionario[empresa][2]*0.65))
-		
-		
-		fitness += individuo[i] * ((dicionario[empresa][0]*0.15)+
-									(dicionario[empresa][1]*0.2)+
-									(dicionario[empresa][2]*0.65))
-		
-		
-		fitness +=( individuo[i] * ((dicionario[empresa][0]+dicionario[empresa][3])*0.16) +  
-		individuo[i] * ((dicionario[empresa][1]+dicionario[empresa][4]) * 0.34) + 
-		individuo[i] * ((dicionario[empresa][2]+ dicionario[empresa][5])*0.5))
-		
-		'''
-		fitness += (individuo[i]/100) * (
-									((dicionario[empresa][0] *0.15)+
-									(dicionario[empresa][1] *0.25)+
-									(dicionario[empresa][2] *0.6))*0.3
-									+
-									((dicionario[empresa][3]*0.15) + 
-									(dicionario[empresa][4]*0.25) + 
-									(dicionario[empresa][5] *0.6))*0.4
-									+
-									((dicionario[empresa][6]*0.15) + 
-									(dicionario[empresa][7]*0.25) + 
-									(dicionario[empresa][8] *0.6))*0.1
-									)
-
-		i += 1
-	
-	for i in individuo:
-		if not i in range(2, 35):
-			fitness -= 0.3
-	
-	return round(fitness, 2)
-
-def selecao(populacao, dicionario):
+def selecao(populacao,valor, dicionario):
 	'''
 	Selecao realizada por torneio.
 	Seleciona dois individuos aleatorios da populacao e em seguida,
@@ -183,7 +118,7 @@ def selecao(populacao, dicionario):
 	primSelecionado = random.choice(populacao)
 	segunSelecionado = random.choice(populacao)
 
-	if (fnFitness(primSelecionado, dicionario) > fnFitness(segunSelecionado, dicionario)):
+	if (localFitness(primSelecionado, valor, dicionario) > localFitness(segunSelecionado, valor, dicionario)):
 		return primSelecionado
 	else:
 		return segunSelecionado
@@ -230,7 +165,7 @@ def gerarPopulacaoInicial(populacao):
 		populacao.append(aux)
 
 		'''
-		y =  random.randint(1, 5)
+		y =  random.randint(6, 9)
 		aux = [y for i in range(10)]
 
 		percentagem -= y*10
@@ -240,61 +175,62 @@ def gerarPopulacaoInicial(populacao):
 			percentagem -= y
 
 		if percentagem > 0:
-			aux[random.randint(0,9)] += percentagem
+			aux[random.randint(0, 9)] = percentagem
 			
 
 		random.shuffle(aux)
 		populacao.append(aux)
 
-def buscaGenetico():
+def buscaGenetico(valor):
 	populacao = []
 	global numFilhos
 	N = numFilhos # Quantidade de filhos gerados a cada iteracao.
 	criterioParada = True
 	criterioParada = 0
 	melhorGlobal = []
+	global dicionario2
 
-	dicVar = somaVar() # Soma as variâncias
+	dicionario2 = somaVar() # Soma as variâncias
 	print('Iniciando Busca...')
 	gerarPopulacaoInicial(populacao)
 	while criterioParada < 1000:
+		if criterioParada in [i*100 for i in range(10)]:
+			print("Concluido -> ", criterioParada/10, "%")
 		novaPopulacao = []
 		#print( "Populcao: ", populacao, " / tamanho = ", len(populacao))
 		for i in range(0, N):
-			x = selecao(populacao, dicVar)
-			y = selecao(populacao, dicVar)
+			x = selecao(populacao, valor, dicionario2)
+			y = selecao(populacao, valor, dicionario2)
 			filho = reproduz(x, y)
 
 			if (pequenaProbabilidadeAleatoria()):
 				mutacao(filho)
 			novaPopulacao.append(filho)
 
-		populacao = atualizar(populacao, novaPopulacao, dicVar)
-		melhorLocal =  melhorIndividuo(populacao, dicVar)
-		'''
+		populacao = atualizar(populacao, novaPopulacao, valor, dicionario2)
+
+		melhorLocal =  melhorIndividuo(populacao, valor, dicionario2)
 		if not melhorGlobal:
 			melhorGlobal = list(melhorLocal)
 
-		if fnFitness(melhorGlobal, dicVar) < fnFitness(melhorLocal, dicVar):
+		if localFitness(melhorGlobal, valor, dicionario2) < localFitness(melhorLocal, valor, dicionario2):
 			melhorGlobal = list(melhorLocal)
-			criterioParada =0
-		else:
-		'''
-		criterioParada +=1
-		print(melhorLocal, fnFitness(melhorLocal,dicVar))
 		
-		plt.plot([criterioParada], [fnFitness(melhorLocal,dicVar)], 'ro')
+		criterioParada +=1
+		print(melhorLocal, localFitness(melhorLocal, valor, dicionario2))
+		
+		plt.plot([criterioParada], [localFitness(melhorLocal, valor, dicionario2)], 'ro')
 
 	plt.title("Algoritmo Genetico: Convergencia")
 	plt.xlabel('Geracao')
 	plt.ylabel('Valor Fitness')
 	plt.savefig("./outputs/convAlgGen.png")
-	return melhorIndividuo(populacao, dicVar)
+	return melhorGlobal
 
 def buscaProporcao(valor):
 	print("Gerando proporcoes de investimentos...")
 
-	proporcoes = buscaGenetico()
+	proporcoes = buscaGenetico(valor)
 	
 	#proporcoes = [5, 5, 15, 0, 10, 10, 15, 30, 10, 0]
 

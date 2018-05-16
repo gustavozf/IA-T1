@@ -57,5 +57,5 @@ if __name__ == '__main__':
     choice = input('Deseja exibir o otimo para esta configuracao? (s/n)\n> ')
     if (choice.upper() == 'S'):
         total = otimo(copia)
-        print('Otimo estipulado => Total: {0} / Lucro: {1} ({2} %)'.format(total, total-valor, 
+        print('Otimo estipulado => Total: {0} / Lucro: {1} ({2} %)'.format(round(total,2), round(total-valor,2), 
                                                                     round((((total-valor)/valor)*100),2)))
