@@ -185,7 +185,7 @@ def buscaGenetico(valor):
 	populacao = []
 	global numFilhos
 	N = numFilhos # Quantidade de filhos gerados a cada iteracao.
-	criterioParada = True
+	contador = 0
 	criterioParada = 0
 	melhorGlobal = []
 	global dicionario2
@@ -215,9 +215,15 @@ def buscaGenetico(valor):
 
 		if localFitness(melhorGlobal, valor, dicionario2) < localFitness(melhorLocal, valor, dicionario2):
 			melhorGlobal = list(melhorLocal)
+			#print(melhorGlobal, localFitness(melhorGlobal, valor, dicionario2))
+		#	contador = 0
 		
+		#if contador > 40:
+		#	gerarPopulacaoInicial(populacao)
+		#else:
+		#	contador +=1
 		criterioParada +=1
-		print(melhorLocal, localFitness(melhorLocal, valor, dicionario2))
+		#print(melhorLocal, localFitness(melhorLocal, valor, dicionario2))
 		
 		plt.plot([criterioParada], [localFitness(melhorLocal, valor, dicionario2)], 'ro')
 

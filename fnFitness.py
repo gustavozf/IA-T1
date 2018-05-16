@@ -14,7 +14,7 @@ def somaVar():
 		tam = len(dicionario[empresa])
 		for i in range(2):
 			for j in [1,2,4]:
-				dp = sum([dicionario[empresa][x][i] for x in range(tam//j)])/(tam//j)
+				dp = sum([dicionario[empresa][x][i] for x in range(tam//j)])/ (tam//j)
 				#valor = statistics.pstdev([i/sum(dp) for i in dp])
 				valor = dp 
 				dicVar[empresa].append(valor)
@@ -71,22 +71,23 @@ def fnFitness(individuo, valor, dicionario2):
 	individuo[i] * ((dicionario[empresa][2]+ dicionario[empresa][5])*0.5))
 	'''	
 	for empresa in empresas: #media pondereda, peso 1, 2 e 3 + volume	
-		fitness += (individuo[i]/100) * (
+		fitness += (individuo[i]) * (
 									((dicionario2[empresa][0] *0.16)+
 									(dicionario2[empresa][1]  *0.34)+
-									(dicionario2[empresa][2] *0.5))*0.3
+									(dicionario2[empresa][2] *0.5)) * 0.25
 									+
 									((dicionario2[empresa][3]*0.16) + 
 									(dicionario2[empresa][4]*0.34) + 
-									(dicionario2[empresa][5] *0.5))*0.7
+									(dicionario2[empresa][5] *0.5)) * 0.75
 									)
 
 		i += 1
 	
 	for i in individuo:
 		if not i in range(7, 30):
-			fitness -= 10
+			fitness -= 400
 	
+	#print(fitness)
 	#fitness = x #max(x, y)
 	return round(fitness,2)
 
