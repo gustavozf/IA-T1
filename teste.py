@@ -1,10 +1,8 @@
-import matplotlib.pyplot as plt
+import statistics
 
-plt.plot([1], [1], 'ro')
-plt.plot([2], [2], 'ro')
-plt.plot([3], [3], 'ro')
-plt.plot([4], [4], 'ro')
-plt.plot([5], [5], 'ro')
-plt.plot([6], [6], 'ro')
+x = [1, 2, 3, 4]
+y = [-100, -200, -300, -400]
 
-plt.show()
+print(
+    statistics.pstdev([i/sum(x) for i in x]),
+    statistics.pstdev([i/sum(y) for i in y]))

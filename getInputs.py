@@ -37,7 +37,9 @@ def insertDict(nome, dicionario):
             if line != '\n':
                 aux.append(line.split('\t'))
         for i in aux:
-            dicionario[nome].append([float(i[5].replace(',','.')), float(i[1].replace(',','.'))])
+            dicionario[nome].append([float(i[5].replace(',','.')),
+                                     float(i[1].replace(',','.')),
+                                     float(i[6].replace('.',''))])
 
 def get2014and2015():
     dicionario = {}

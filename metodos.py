@@ -5,6 +5,7 @@ empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel",  "natura",
 #curto, medio, longo = 21, 42, 100
 #curto, medio, longo = 8, 42, 89
 curto, medio, longo = 4, 9, 18
+saida = open('./outputs/saida.txt', 'w')
 
 def printHistorico(saida, copia, disponivel, vendeu, comprou):
     stringAux = "Historico geral: \n"
@@ -22,7 +23,7 @@ def printHistorico(saida, copia, disponivel, vendeu, comprou):
     saida.write(stringAux)
     saida.close()
 
-def vendeUltimoDia(cont, values2016, disponivel, cotacoes):
+def vendeUltimoDia(values2016, disponivel, cotacoes):
     for empresa in empresas:
         venda(len(values2016[empresa])-1, empresa, values2016, disponivel, cotacoes)
 
@@ -70,7 +71,7 @@ def cruzamentoMediaMovel(disponivel): # Mari - Media ponderada
     global curto
     global longo
     copia = dict(disponivel)
-    saida = open('saida.txt', 'w')
+    global saida
     comprou = 0
     vendeu = 0
 
@@ -101,7 +102,7 @@ def cruzamentoMediaMovel(disponivel): # Mari - Media ponderada
         saida.write("Dia #" + str(cont)+ " / Total: " + str(sum(disponivel.values())) + "\n\n")
         cont+=1
 
-    vendeUltimoDia(cont, values2016, disponivel, cotacoes)
+    vendeUltimoDia(values2016, disponivel, cotacoes)
     printHistorico(saida, copia, disponivel, vendeu, comprou)
     print("Fim de execucao!\n")
     
@@ -112,7 +113,7 @@ def mediaMovelSimples(disponivel):
     cont = longo #
     passo = cont -1
     dias = 248 + cont #dias de 2016, tirando o 1º
-    saida = open('saida.txt', 'w')
+    global saida
     copia = dict(disponivel)
     historico = {}
 
@@ -143,7 +144,7 @@ def mediaMovelSimples(disponivel):
         saida.write("Dia #" + str(cont)+ " / Total: " + str(sum(disponivel.values())) + "\n\n")
         cont += 1
 
-    vendeUltimoDia(cont, values2016, disponivel, cotacoes)
+    vendeUltimoDia(values2016, disponivel, cotacoes)
     printHistorico(saida, copia, disponivel, vendeu, comprou)
 
     return sum(disponivel.values())
@@ -151,17 +152,18 @@ def mediaMovelSimples(disponivel):
 def mme(dia, n, empresa, values2016):
     valorMme = 0
     contador = dia
-    for i in range(dia-n, dia, -1):
-        preco = values2016[empresa][dia-i]
-        k = 2/(1+i)
+    for i in range(dia-n, dia+1):
+        preco = values2016[empresa][i]
+        k = 2/(1+contador)
         valorMme = valorMme + k*(preco-valorMme)
+        contador -=1
     return valorMme
 
 def mediaMovelExponencial(disponivel):
     global empresas
     global longo
     global curto
-    saida = open('saida.txt', 'w')
+    global saida
     comprou = 0
     vendeu = 0
     cont = longo + 1
@@ -197,7 +199,33 @@ def mediaMovelExponencial(disponivel):
         saida.write("Dia #" + str(cont)+ " / Total: " + str(sum(disponivel.values())) + "\n\n")
         cont += 1
 
-    vendeUltimoDia(cont, values2016, disponivel, cotacoes)
+    vendeUltimoDia(values2016, disponivel, cotacoes)
     printHistorico(saida, copia, disponivel, vendeu, comprou)
+
+    return sum(disponivel.values())
+
+def otimo(disponivel):
+    values2016 = get2016(0)
+    global empresas
+    historico = {}
+
+    cotacoes = compraPrimeiroDia(18, disponivel, values2016, historico)
+
+    for empresa in empresas:
+        act = {}
+        for dia in range(18, len(values2016[empresa]) - 18):
+            if not False in [(values2016[empresa][dia] >= values2016[empresa][i]) for i in range(dia-18, dia + 19)]:
+                act[dia] = 0 # venda
+            elif not False in [(values2016[empresa][dia] <= values2016[empresa][i]) for i in range(dia-18, dia + 19)]:
+                act[dia] = 1 # compra
+        
+        for i in act.keys():
+            if act[i] == 0:
+                if cotacoes[empresa] > 0:
+                    venda(i, empresa, values2016, disponivel, cotacoes)
+            else:
+                compra(i, empresa, values2016, disponivel, cotacoes, historico)
+    
+    vendeUltimoDia(values2016, disponivel, cotacoes)
 
     return sum(disponivel.values())

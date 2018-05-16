@@ -1,9 +1,9 @@
 from geraProporcao import buscaProporcao
 import os
-from metodos import setup
+from metodos import *
 
 def menu():
-    return int(input("Bem vindo ao ULTIMATE INVESTIDOR\n" +
+    return int(input("Bem vindo ao Investidor Inteligente\n" +
             "Para continuar selecione uma das opcoes de busca de investimento:\n"
             "\t 1 - Media Movel Exponencial (Gustavo Zanoni)\n" + 
             "\t 2 - Media Movel Ponderada (Mariana Soder)\n" + 
@@ -46,9 +46,16 @@ if __name__ == '__main__':
         disponivel[empresa] = proporcao[i]
         i +=1
 
+    copia = dict(disponivel)
     print('Simulando...')
     total = setup(alg, disponivel)
     print("Total Acumulado = " +str(total)+ "\n" +
           "Total de Lucro = " + str(round(total - valor,2)) +" ("+ str(round(((total-valor)/valor)*100,2))+ "%)\n\n" + 
           "Para mais informacoes, veja o arquivo 'saida.txt'!\n" +
           "Fim de simulacao!\n")
+
+    choice = input('Deseja exibir o otimo para esta configuracao? (s/n)\n> ')
+    if (choice.upper() == 'S'):
+        total = otimo(copia)
+        print('Otimo estipulado => Total: {0} / Lucro: {1} ({2} %)'.format(total, total-valor, 
+                                                                    round((((total-valor)/valor)*100),2)))

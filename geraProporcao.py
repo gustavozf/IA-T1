@@ -1,5 +1,6 @@
 import os, sys, random, operator # bibliotecas que podem vir a ser uteis
 from math import ceil
+import statistics
 from getInputs import get2014and2015
 import matplotlib.pyplot as plt
 
@@ -14,13 +15,21 @@ def somaVar():
 	for empresa in empresas:
 		dicVar[empresa] = []
 		tam = len(dicionario[empresa])
+		for i in range(3):
+			for j in [1,2,4]:
+				dp = [dicionario[empresa][x][i] for x in range(tam//j)]
+				dicVar[empresa].append(statistics.pstdev([i/sum(dp) for i in dp]))
+		'''
 		dicVar[empresa].append(sum([dicionario[empresa][x][0] for x in range(tam)])/ tam ) # variancia dos dois anos
 		dicVar[empresa].append(sum([dicionario[empresa][x][0] for x in range(tam//2)])/ (tam//2)) # variancia de 2015
 		dicVar[empresa].append(sum([dicionario[empresa][x][0] for x in range(tam//4)])/ (tam//4) ) # variancia de metade de 2015
 		dicVar[empresa].append(sum([dicionario[empresa][x][1] for x in range(tam)])/ tam) # valor de dois anos
 		dicVar[empresa].append(sum([dicionario[empresa][x][1] for x in range(tam//2)])/ (tam//2)) # valor de 2015
 		dicVar[empresa].append(sum([dicionario[empresa][x][1] for x in range(tam//4)])/ (tam//4)) # valor de metade de 2015
-	
+		dicVar[empresa].append(sum([dicionario[empresa][x][2] for x in range(tam)])/ tam) # valor de dois anos
+		dicVar[empresa].append(sum([dicionario[empresa][x][2] for x in range(tam//2)])/ (tam//2)) # valor de 2015
+		dicVar[empresa].append(sum([dicionario[empresa][x][2] for x in range(tam//4)])/ (tam//4)) # valor de metade de 2015
+		'''
 	print(dicVar)
 
 	return dict(dicVar)
@@ -143,20 +152,25 @@ def fnFitness(individuo, dicionario):
 		
 		'''
 		fitness += (individuo[i]/100) * (
-									((dicionario[empresa][0] *0.1)+
-									(dicionario[empresa][1] *0.2)+
-									(dicionario[empresa][2] *0.7))*0.75
+									((dicionario[empresa][0] *0.15)+
+									(dicionario[empresa][1] *0.25)+
+									(dicionario[empresa][2] *0.6))*0.3
 									+
-									((dicionario[empresa][3]*0.1) + 
-									(dicionario[empresa][4]*0.2) + 
-									(dicionario[empresa][5] *0.7))*0.15
+									((dicionario[empresa][3]*0.15) + 
+									(dicionario[empresa][4]*0.25) + 
+									(dicionario[empresa][5] *0.6))*0.4
+									+
+									((dicionario[empresa][6]*0.15) + 
+									(dicionario[empresa][7]*0.25) + 
+									(dicionario[empresa][8] *0.6))*0.1
 									)
 
 		i += 1
-
-	for i in range(0,2):
-    		fitness -= individuo.count(i) * 3
-
+	
+	for i in individuo:
+		if not i in range(2, 35):
+			fitness -= 0.3
+	
 	return round(fitness, 2)
 
 def selecao(populacao, dicionario):
@@ -208,28 +222,29 @@ def gerarPopulacaoInicial(populacao):
 			percentagem[2] -= valor
 		
 		if sum(percentagem) > 0:
+    		aux.append(sum(percentagem)) # faz isso para dar ao ultimo, o resto da percentagem
+		else:
+			aux.append(0)
+		aux = random.shuffle(aux) # embaralha os valores
+		random.shuffle(aux)
+		populacao.append(aux)
 
 		'''
 		y =  random.randint(1, 5)
-		x = [y for i in range(10)]
+		aux = [y for i in range(10)]
 
 		percentagem -= y*10
 		for i in range(0,10):
 			y = random.randint(0, percentagem)
-			x[i] += y
+			aux[i] += y
 			percentagem -= y
 
 		if percentagem > 0:
-			x[random.randint(0,9)] += percentagem
-			#aux.append(sum(percentagem)) # faz isso para dar ao ultimo, o resto da percentagem
-		#else:
-		#	aux.append(0)
-		#aux = random.shuffle(aux) # embaralha os valores
-		#random.shuffle(aux)
-		#populacao.append(aux)
+			aux[random.randint(0,9)] += percentagem
+			
 
-		random.shuffle(x)
-		populacao.append(x)
+		random.shuffle(aux)
+		populacao.append(aux)
 
 def buscaGenetico():
 	populacao = []
@@ -242,7 +257,7 @@ def buscaGenetico():
 	dicVar = somaVar() # Soma as variâncias
 	print('Iniciando Busca...')
 	gerarPopulacaoInicial(populacao)
-	while criterioParada < 300:
+	while criterioParada < 1000:
 		novaPopulacao = []
 		#print( "Populcao: ", populacao, " / tamanho = ", len(populacao))
 		for i in range(0, N):
@@ -255,8 +270,6 @@ def buscaGenetico():
 			novaPopulacao.append(filho)
 
 		populacao = atualizar(populacao, novaPopulacao, dicVar)
-
-		
 		melhorLocal =  melhorIndividuo(populacao, dicVar)
 		'''
 		if not melhorGlobal:
@@ -270,17 +283,20 @@ def buscaGenetico():
 		criterioParada +=1
 		print(melhorLocal, fnFitness(melhorLocal,dicVar))
 		
-		plt.plot([criterioParada], [fnFitness(melhorLocal,dicVar)], 'r^')
+		plt.plot([criterioParada], [fnFitness(melhorLocal,dicVar)], 'ro')
 
-	plt.show()
+	plt.title("Algoritmo Genetico: Convergencia")
+	plt.xlabel('Geracao')
+	plt.ylabel('Valor Fitness')
+	plt.savefig("./outputs/convAlgGen.png")
 	return melhorIndividuo(populacao, dicVar)
 
 def buscaProporcao(valor):
 	print("Gerando proporcoes de investimentos...")
 
-	#proporcoes = buscaGenetico()
+	proporcoes = buscaGenetico()
 	
-	proporcoes = [5, 5, 15, 0, 10, 10, 15, 30, 10, 0]
+	#proporcoes = [5, 5, 15, 0, 10, 10, 15, 30, 10, 0]
 
 	saldo = [
 			round((proporcoes[0]/100) * valor,2),
