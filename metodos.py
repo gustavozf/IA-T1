@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 
 empresas = ["ambev", "americanas", "bancodobrasil", "cielo", "copel",  "natura", "renner", "sanepar", "vale", "weg"]
 #curto, medio, longo = 21, 42, 100
-curto, medio, longo = 8, 42, 89
-#curto, medio, longo = 4, 9, 18
+#curto, medio, longo = 8, 42, 89
+curto, medio, longo = 4, 9, 18
 
 def printHistorico(saida, copia, disponivel, vendeu, comprou):
     stringAux = "Historico geral: \n"
@@ -132,7 +132,7 @@ def mediaMovelSimples(disponivel):
                     vendeu +=1
                     venda(cont, empresa, values2016, disponivel, cotacoes)
                 else:
-                    saida.write("Empresa: " + empresa+ " / Status: Nao Vende\n")
+                    saida.write("Empresa: " + empresa+ " / Status: NADA (Nao-Venda)\n")
             elif (hoje > somaDias): 
                 if compra(cont, empresa, values2016, disponivel, cotacoes, historico):
                     comprou +=1   
@@ -151,7 +151,7 @@ def mediaMovelSimples(disponivel):
 def mme(dia, n, empresa, values2016):
     valorMme = 0
     contador = dia
-    for i in range(n, -1, -1):
+    for i in range(dia-n, dia, -1):
         preco = values2016[empresa][dia-i]
         k = 2/(1+i)
         valorMme = valorMme + k*(preco-valorMme)
@@ -185,14 +185,14 @@ def mediaMovelExponencial(disponivel):
                     vendeu +=1
                     venda(cont, empresa, values2016, disponivel, cotacoes)
                 else:
-                    saida.write("Empresa: " + empresa+ " / Status: Nao Vende\n")
+                    saida.write("Empresa: " + empresa+ " / Status: NADA (Nao-Venda)\n")
             #elif (valorCurto > valorLongo):
             elif (hoje > valorLongo): 
                 if compra(cont, empresa, values2016, disponivel, cotacoes, historico):
                     comprou +=1   
                     saida.write("Empresa: " + empresa+ " / Status: Compra\n")
                 else:
-                    saida.write("Empresa: " + empresa+ " / Status: Nao Compra\n")
+                    saida.write("Empresa: " + empresa+ " / Status: NADA (Nao-Compra)\n")
 
         saida.write("Dia #" + str(cont)+ " / Total: " + str(sum(disponivel.values())) + "\n\n")
         cont += 1

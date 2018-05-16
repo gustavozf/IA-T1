@@ -10,18 +10,20 @@ numFilhos = 100
 def somaVar():
 	dicionario = get2014and2015()
 	dicVar = {}
-	global empresas
 
 	for empresa in empresas:
 		dicVar[empresa] = []
-		dicVar[empresa].append(sum(dicionario[empresa][0])//493 ) # variancia dos dois anos
-		dicVar[empresa].append(sum(dicionario[empresa][:247][0])//247) # variancia de 2015
-		dicVar[empresa].append(sum(dicionario[empresa][:124][0])//124) # variancia de metade de 2015
-		dicVar[empresa].append(sum(dicionario[empresa][1])//493) # volume de dois anos
-		dicVar[empresa].append(sum(dicionario[empresa][:247][1])//247) #volume de 2015
-		dicVar[empresa].append(sum(dicionario[empresa][:124][1])//124) # volume de metade de 2015
+		tam = len(dicionario[empresa])
+		dicVar[empresa].append(sum([dicionario[empresa][x][0] for x in range(tam)])/ tam ) # variancia dos dois anos
+		dicVar[empresa].append(sum([dicionario[empresa][x][0] for x in range(tam//2)])/ (tam//2)) # variancia de 2015
+		dicVar[empresa].append(sum([dicionario[empresa][x][0] for x in range(tam//4)])/ (tam//4) ) # variancia de metade de 2015
+		dicVar[empresa].append(sum([dicionario[empresa][x][1] for x in range(tam)])/ tam) # valor de dois anos
+		dicVar[empresa].append(sum([dicionario[empresa][x][1] for x in range(tam//2)])/ (tam//2)) # valor de 2015
+		dicVar[empresa].append(sum([dicionario[empresa][x][1] for x in range(tam//4)])/ (tam//4)) # valor de metade de 2015
+	
+	print(dicVar)
 
-	return dicVar
+	return dict(dicVar)
 
 
 def checkSum(lista):
@@ -51,7 +53,7 @@ def atualizar(populacao, novaPopulacao, dicionario):
 	novaPop = []
 	for individuo in populacao:
 		fit.append(fnFitness(individuo, dicionario))
-	for i in range(int(tamPopulacao*0.3)):
+	for i in range(int(tamPopulacao*0.85)):
 		posicao = fit.index(max(fit))
 		fit[posicao] = -8000000
 		novaPop.append(list(populacao[posicao]))
@@ -59,7 +61,7 @@ def atualizar(populacao, novaPopulacao, dicionario):
 	fit = []
 	for individuo in novaPopulacao:
 		fit.append(fnFitness(individuo, dicionario))
-	for i in range(int(tamPopulacao*0.7)):
+	for i in range(int(tamPopulacao*0.15)):
 		posicao = fit.index(max(fit))
 		fit[posicao] = -8000000
 		novaPop.append(list(novaPopulacao[posicao]))
@@ -75,9 +77,10 @@ def mutacao(filho):
 	'''
 	Funcao que muta um individuo. Utiliza do swap.
 	'''
-	a = random.randint(0, 9) # Inclui o 9
-	b = random.randint(0, 9)
-	filho[a], filho[b] = filho[b], filho[a]
+	for i in range(0,4):
+		a = random.randint(0, 9) # Inclui o 9
+		b = random.randint(0, 9)
+		filho[a], filho[b] = filho[b], filho[a]
 
 def reproduz(x, y):
 	'''
@@ -86,9 +89,11 @@ def reproduz(x, y):
 	soma = 0
 	diferenca = 0
 	porcentagem = 0
-	pontoDeCorte = random.randint(1, 8)
+	pontoDeCorte = [random.randint(1, 8), random.randint(1, 8)]
 
-	filho = x[:pontoDeCorte] + y[pontoDeCorte:]
+	pontoDeCorte.sort()
+
+	filho = x[:pontoDeCorte[0]] + y[pontoDeCorte[0]:pontoDeCorte[1]] + x[pontoDeCorte[1]:]
 
 	#print( "Filho: ", filho)
 
@@ -127,22 +132,30 @@ def fnFitness(individuo, dicionario):
 									(dicionario[empresa][2]*0.65))
 		
 		
+		fitness += individuo[i] * ((dicionario[empresa][0]*0.15)+
+									(dicionario[empresa][1]*0.2)+
+									(dicionario[empresa][2]*0.65))
+		
+		
 		fitness +=( individuo[i] * ((dicionario[empresa][0]+dicionario[empresa][3])*0.16) +  
 		individuo[i] * ((dicionario[empresa][1]+dicionario[empresa][4]) * 0.34) + 
 		individuo[i] * ((dicionario[empresa][2]+ dicionario[empresa][5])*0.5))
+		
 		'''
-		fitness +=( (individuo[i]/100) * (
-									((dicionario[empresa][0]*0.16)+
-									(dicionario[empresa][1]*0.34)+
-									(dicionario[empresa][2]*0.5) * 0.95)
+		fitness += (individuo[i]/100) * (
+									((dicionario[empresa][0] *0.1)+
+									(dicionario[empresa][1] *0.2)+
+									(dicionario[empresa][2] *0.7))*0.75
 									+
 									((dicionario[empresa][3]*0.1) + 
-									(dicionario[empresa][4]*0.3) + 
-									(dicionario[empresa][5]*0.6)*0.05)
-									))
-		
-		
+									(dicionario[empresa][4]*0.2) + 
+									(dicionario[empresa][5] *0.7))*0.15
+									)
+
 		i += 1
+
+	for i in range(0,2):
+    		fitness -= individuo.count(i) * 3
 
 	return round(fitness, 2)
 
@@ -177,9 +190,10 @@ def gerarPopulacaoInicial(populacao):
 	global tamPopulacao
 	# for para gerar todos os individuos da populacao
 	for i in range(tamPopulacao):
-		percentagem = [30, 30, 40]
+		percentagem = 100 #[30, 30, 40]
 		aux = []
 		# for para os cromossomos do individuo
+		'''
 		for j in range(0,3):
 			valor = random.randint(0, int(percentagem[0]))
 			aux.append(valor)
@@ -192,13 +206,30 @@ def gerarPopulacaoInicial(populacao):
 			valor = random.randint(0,percentagem[2])
 			aux.append(valor)
 			percentagem[2] -= valor
+		
 		if sum(percentagem) > 0:
-			aux.append(sum(percentagem)) # faz isso para dar ao ultimo, o resto da percentagem
-		else:
-			aux.append(0)
+
+		'''
+		y =  random.randint(1, 5)
+		x = [y for i in range(10)]
+
+		percentagem -= y*10
+		for i in range(0,10):
+			y = random.randint(0, percentagem)
+			x[i] += y
+			percentagem -= y
+
+		if percentagem > 0:
+			x[random.randint(0,9)] += percentagem
+			#aux.append(sum(percentagem)) # faz isso para dar ao ultimo, o resto da percentagem
+		#else:
+		#	aux.append(0)
 		#aux = random.shuffle(aux) # embaralha os valores
-		random.shuffle(aux)
-		populacao.append(aux)
+		#random.shuffle(aux)
+		#populacao.append(aux)
+
+		random.shuffle(x)
+		populacao.append(x)
 
 def buscaGenetico():
 	populacao = []
@@ -211,7 +242,7 @@ def buscaGenetico():
 	dicVar = somaVar() # Soma as variâncias
 	print('Iniciando Busca...')
 	gerarPopulacaoInicial(populacao)
-	while criterioParada < 1000:
+	while criterioParada < 300:
 		novaPopulacao = []
 		#print( "Populcao: ", populacao, " / tamanho = ", len(populacao))
 		for i in range(0, N):
@@ -225,8 +256,9 @@ def buscaGenetico():
 
 		populacao = atualizar(populacao, novaPopulacao, dicVar)
 
-		'''
+		
 		melhorLocal =  melhorIndividuo(populacao, dicVar)
+		'''
 		if not melhorGlobal:
 			melhorGlobal = list(melhorLocal)
 
@@ -236,17 +268,20 @@ def buscaGenetico():
 		else:
 		'''
 		criterioParada +=1
+		print(melhorLocal, fnFitness(melhorLocal,dicVar))
 		
-		#plt.plot([criterioParada], [fnFitness(melhorLocal,dicVar)], 'r^')
+		plt.plot([criterioParada], [fnFitness(melhorLocal,dicVar)], 'r^')
 
-	#plt.show()
+	plt.show()
 	return melhorIndividuo(populacao, dicVar)
 
 def buscaProporcao(valor):
 	print("Gerando proporcoes de investimentos...")
 
-	proporcoes = buscaGenetico()
+	#proporcoes = buscaGenetico()
 	
+	proporcoes = [5, 5, 15, 0, 10, 10, 15, 30, 10, 0]
+
 	saldo = [
 			round((proporcoes[0]/100) * valor,2),
 			round((proporcoes[1]/100) * valor,2),
